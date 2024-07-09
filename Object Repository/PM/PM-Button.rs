@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PM-Button</name>
+   <tag></tag>
+   <elementGuidId>013557cf-fcb6-4773-aaff-699ebb7f133b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/div[1]/app-app-container[1]/div[1]/div[1]/app-landing-page[1]/div[1]/div[1]/div[2]/div[3]/div[1]/a[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
