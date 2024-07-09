@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "EE92DB98FB1CD468B150D523E29CB67E",
+  "keywordClasses": [
+    {
+      "name": "general",
+      "keywordMethods": [
+        {
+          "name": "StartUp",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
