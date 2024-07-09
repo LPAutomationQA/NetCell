@@ -17,20 +17,38 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+
+
+
+
 
 public class general {
-	
+		
 	@Keyword
 	StartUp() {
-
+		
+		
 		WebUI.openBrowser(GlobalVariable.SwagerURL)
 		WebUI.maximizeWindow()
-
-		/*WebUI.delay(5)
-		 WebUI.navigateToUrl(GlobalVariable.NetCelLURL)
-		 WebUI.switchToWindowIndex(1)
-		 WebUI.maximizeWindow()
-		 WebUI.delay(5)
-		 */
+		WebUI.delay(5)
+		// Initialize WebDriver
+		WebDriver driver = DriverFactory.getWebDriver()
+		
+		// Execute JavaScript to open a new tab
+        WebUI.executeJavaScript("window.open();", null)
+		WebUI.switchToWindowIndex(1)
+		
+		WebUI.navigateToUrl ("https://netcellcert.com/#/login")
+		
 	}
 }
