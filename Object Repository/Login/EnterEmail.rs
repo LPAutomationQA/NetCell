@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login</name>
+   <name>EnterEmail</name>
    <tag></tag>
-   <elementGuidId>a41a2f53-4a2b-410f-a4b9-211081eca355</elementGuidId>
+   <elementGuidId>19b6a0da-bd91-434d-9d75-b078fe70111d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary']
-</value>
+         <value>//input[@id='i0116']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

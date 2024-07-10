@@ -9,4 +9,9 @@
       <initValue>'https://netcellapp/swagger/index.html'</initValue>
       <name>SwagerURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://netcellcert.com/#/login'</initValue>
+      <name>NetCellURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
