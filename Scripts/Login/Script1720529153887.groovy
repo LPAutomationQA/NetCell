@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 //CustomKeywords.'general.StartUp'()
 driver = CustomKeywords.'general.start'(GlobalVariable.SwagerURL, GlobalVariable.NetCellURL)
 
@@ -31,11 +32,7 @@ WebUI.sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder1
 WebUI.delay(1)
 WebUI.click(findTestObject("Object Repository/Login/SigninButton"))
 WebUI.click(findTestObject("Object Repository/Login/YesStayInButton"))
-WebUI.waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0)
-
-
-
-
+//WebUI.waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0)
 
 
 

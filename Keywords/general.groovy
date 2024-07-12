@@ -56,7 +56,7 @@ import java.awt.event.KeyEvent
 
 
 public class general {
-	
+
 	@Keyword
 	WebDriver createWebDriver() {
 		String executedBrowser = DriverFactory.getExecutedBrowser().getName()
@@ -115,27 +115,25 @@ public class general {
 		}
 		return driver
 	}
-	
+
 
 	@Keyword
 	StartUp() {
-		
-		
+
+
 		/*WebUI.openBrowser(GlobalVariable.SwagerURL)
-		WebUI.maximizeWindow()
-		WebUI.delay(2)
-		// Initialize WebDriver
-		//WebDriver driver = DriverFactory.getWebDriver()
-
-		// Execute JavaScript to open a new tab
-		WebUI.executeJavaScript("window.open();", null)
-		WebUI.switchToWindowIndex(1)
-
-		WebUI.navigateToUrl ("https://netcellcert.com/#/login")
-*/
+		 WebUI.maximizeWindow()
+		 WebUI.delay(2)
+		 // Initialize WebDriver
+		 //WebDriver driver = DriverFactory.getWebDriver()
+		 // Execute JavaScript to open a new tab
+		 WebUI.executeJavaScript("window.open();", null)
+		 WebUI.switchToWindowIndex(1)
+		 WebUI.navigateToUrl ("https://netcellcert.com/#/login")
+		 */
 	}
-	
-	
+
+
 	@Keyword
 	WebDriver start(def url1, def url2) {
 
