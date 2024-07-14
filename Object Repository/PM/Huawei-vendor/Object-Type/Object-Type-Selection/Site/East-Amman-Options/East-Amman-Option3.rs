@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StartDate-Button</name>
+   <name>East-Amman-Option3</name>
    <tag></tag>
-   <elementGuidId>db879131-9120-450c-9b64-673e8e1fa917</elementGuidId>
+   <elementGuidId>0b0f31f4-ab3b-4e89-bf77-a52a08bb03ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-filters/div/div/app-x-axis/div[2]/div[1]/app-date-picker-component/div/div[1]/button</value>
+         <value>//li[@aria-label='304-UL_Diana_Hotel_PF_EBand_TASC']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>

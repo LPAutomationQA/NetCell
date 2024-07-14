@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StartDate-Button</name>
+   <name>East-Amman-Option1-E</name>
    <tag></tag>
-   <elementGuidId>db879131-9120-450c-9b64-673e8e1fa917</elementGuidId>
+   <elementGuidId>6c7cccf5-f390-4846-9867-41b5e2cb2e59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-filters/div/div/app-x-axis/div[2]/div[1]/app-date-picker-component/div/div[1]/button</value>
+         <value>//li[@aria-label='301-ULT_King_Hussein_St_PD_Fiber_Manage_B22']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>

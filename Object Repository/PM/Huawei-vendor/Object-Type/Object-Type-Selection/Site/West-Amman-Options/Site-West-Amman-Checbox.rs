@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StartDate-Button</name>
+   <name>Site-West-Amman-Checbox</name>
    <tag></tag>
-   <elementGuidId>db879131-9120-450c-9b64-673e8e1fa917</elementGuidId>
+   <elementGuidId>336e38b7-e72b-4fd7-a548-f352f95c437c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-filters/div/div/app-x-axis/div[2]/div[1]/app-date-picker-component/div/div[1]/button</value>
+         <value>//li[@aria-label='West Amman']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>

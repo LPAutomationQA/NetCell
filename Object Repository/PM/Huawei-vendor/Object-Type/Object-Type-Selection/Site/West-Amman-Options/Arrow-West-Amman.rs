@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StartDate-Button</name>
+   <name>Arrow-West-Amman</name>
    <tag></tag>
-   <elementGuidId>db879131-9120-450c-9b64-673e8e1fa917</elementGuidId>
+   <elementGuidId>c6b07b37-da6a-4acd-81f1-c018b36299c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-filters/div/div/app-x-axis/div[2]/div[1]/app-date-picker-component/div/div[1]/button</value>
+         <value>//li[@aria-label='West Amman']//chevronrighticon[@class='p-element p-icon-wrapper ng-star-inserted']//*[name()='svg']</value>
       </entry>
       <entry>
          <key>BASIC</key>

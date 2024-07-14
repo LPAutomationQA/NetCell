@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Site-East-Amman</name>
+   <name>East-Amman-Option1-A</name>
    <tag></tag>
-   <elementGuidId>71e99f5d-78fe-45c8-9ac0-d7ebe2d418b4</elementGuidId>
+   <elementGuidId>59ada555-610b-4f50-9dee-596189616e48</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-target-tree/app-target-type/div[1]/div[3]/app-common-tree/p-tree/div/div/ul/p-treenode/li/ul/p-treenode[1]/li/div/div</value>
+         <value>//li[@aria-label='301-ULT_King_Hussein_St_PD_Fiber_Manage_A11']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>
