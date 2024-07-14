@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RegionXDD</name>
+   <name>1800-CheckBox</name>
    <tag></tag>
-   <elementGuidId>0bd2b0c2-4989-494d-b094-902995a39c3d</elementGuidId>
+   <elementGuidId>daed45a7-16cb-49c5-a0f1-95da40624f20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='ng-star-inserted'][normalize-space()='Region XDD']</value>
+         <value>//li[@aria-label='1800']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>

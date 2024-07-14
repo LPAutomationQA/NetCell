@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RegionXDD</name>
+   <name>Arrow-FDD</name>
    <tag></tag>
-   <elementGuidId>0bd2b0c2-4989-494d-b094-902995a39c3d</elementGuidId>
+   <elementGuidId>bf1390da-c71c-44d4-8cf0-07539e6e6af0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='ng-star-inserted'][normalize-space()='Region XDD']</value>
+         <value>//li[@aria-label='FDD']//chevronrighticon[@class='p-element p-icon-wrapper ng-star-inserted']//*[name()='svg']</value>
       </entry>
       <entry>
          <key>BASIC</key>
