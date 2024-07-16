@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX PLMN</name>
+   <name>Day 7</name>
    <tag></tag>
-   <elementGuidId>ec65d64f-812a-477a-8d52-abe226ef795b</elementGuidId>
+   <elementGuidId>3ce2cc5c-bcb5-4854-ba50-1f60c44dcda9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='7']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div/div/div/ul/p-dropdownitem[1]/li/span</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

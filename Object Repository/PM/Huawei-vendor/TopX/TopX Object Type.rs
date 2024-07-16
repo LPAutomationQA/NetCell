@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX PLMN</name>
+   <name>TopX Object Type</name>
    <tag></tag>
-   <elementGuidId>ec65d64f-812a-477a-8d52-abe226ef795b</elementGuidId>
+   <elementGuidId>8477c06c-4928-4d84-8865-185c3a720020</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/ul/p-dropdownitem[1]/li/span</value>
+         <value>//span[@aria-label='select']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

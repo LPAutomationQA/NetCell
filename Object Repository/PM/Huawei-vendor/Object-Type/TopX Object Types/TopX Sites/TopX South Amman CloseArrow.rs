@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX PLMN</name>
+   <name>TopX South Amman CloseArrow</name>
    <tag></tag>
-   <elementGuidId>ec65d64f-812a-477a-8d52-abe226ef795b</elementGuidId>
+   <elementGuidId>3f6a8b5f-8a4c-40d7-a623-728b9a3b6bda</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/ul/p-dropdownitem[1]/li/span</value>
+         <value>//li[@aria-label='South Amman']//chevrondownicon[@class='p-element p-icon-wrapper ng-star-inserted']//*[name()='svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

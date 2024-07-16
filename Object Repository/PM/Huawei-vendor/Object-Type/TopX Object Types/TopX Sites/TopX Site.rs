@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX PLMN</name>
+   <name>TopX Site</name>
    <tag></tag>
-   <elementGuidId>ec65d64f-812a-477a-8d52-abe226ef795b</elementGuidId>
+   <elementGuidId>46b1d28a-938f-4ee2-a66a-ce93bbad7741</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/ul/p-dropdownitem[1]/li/span</value>
+         <value>//span[normalize-space()='Site']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX PLMN</name>
+   <name>Table View</name>
    <tag></tag>
-   <elementGuidId>ec65d64f-812a-477a-8d52-abe226ef795b</elementGuidId>
+   <elementGuidId>fe379a4f-094c-4cbb-aa69-b393078bb0c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div/ul/p-dropdownitem[1]/li/span</value>
+         <value>//*[@id=&quot;chart-container&quot;]/div/section[1]/app-main-chart-component/div/div[1]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
