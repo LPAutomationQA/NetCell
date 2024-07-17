@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Table View</name>
+   <name>TopX TDD Close Arrow</name>
    <tag></tag>
-   <elementGuidId>fe379a4f-094c-4cbb-aa69-b393078bb0c3</elementGuidId>
+   <elementGuidId>51ca65da-0245-43e1-887e-c3b210fb1092</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;chart-container&quot;]/div/app-main-chart-component[1]/div/div[1]/div[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li[@aria-label='TDD']//chevrondownicon[@class='p-element p-icon-wrapper ng-star-inserted']//*[name()='svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

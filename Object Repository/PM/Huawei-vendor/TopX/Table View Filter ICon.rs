@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Table View</name>
+   <name>Table View Filter ICon</name>
    <tag></tag>
-   <elementGuidId>fe379a4f-094c-4cbb-aa69-b393078bb0c3</elementGuidId>
+   <elementGuidId>4411d45f-ed16-492b-a166-cd6db73c6a52</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;chart-container&quot;]/div/app-main-chart-component[1]/div/div[1]/div[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//em[@class='fa-light fa-filter empty-filter empty ng-star-inserted']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Table View</name>
+   <name>TopX FDD 2100</name>
    <tag></tag>
-   <elementGuidId>fe379a4f-094c-4cbb-aa69-b393078bb0c3</elementGuidId>
+   <elementGuidId>5ad9a31c-b302-4f47-8998-9179690ab229</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;chart-container&quot;]/div/app-main-chart-component[1]/div/div[1]/div[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'2100')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

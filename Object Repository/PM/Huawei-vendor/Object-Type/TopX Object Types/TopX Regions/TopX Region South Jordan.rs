@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Table View</name>
+   <name>TopX Region South Jordan</name>
    <tag></tag>
-   <elementGuidId>fe379a4f-094c-4cbb-aa69-b393078bb0c3</elementGuidId>
+   <elementGuidId>ee72df65-f2ca-44a5-9edd-8a9588d7fc91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;chart-container&quot;]/div/app-main-chart-component[1]/div/div[1]/div[2]</value>
+         <value>//span[contains(text(),'South Jordan')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

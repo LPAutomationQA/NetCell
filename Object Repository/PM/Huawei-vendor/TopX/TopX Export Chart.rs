@@ -6,12 +6,11 @@
    <elementGuidId>10bd7ab0-ff15-46fc-89bb-f67589475c95</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;chart-container&quot;]/div/app-main-chart-component[1]/div/div[2]/div[1]/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[1]//app-main-chart-component[1]//div[1]//div[2]//div[1]//div[2]//button[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

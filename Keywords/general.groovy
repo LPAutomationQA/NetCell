@@ -148,4 +148,14 @@ public class general {
 
 		return driver
 	}
+
+	//------------Generate random number between 0 and 100------------------------------
+	@Keyword
+	String getRandomNumberUsingNextInt() {
+		Random random = new Random();
+		String x = Integer.toString(random.nextInt(100 - 1) + 1);
+		return x;
+	}
 }
+
+
