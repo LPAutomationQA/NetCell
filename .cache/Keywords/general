@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "18E29E4A5E20335EA2551F0C8969FBC7",
+  "keywordFileContentHash": "6D028660D07D9541F69D0488898A4060",
   "keywordClasses": [
     {
       "name": "general",
@@ -48,6 +48,11 @@
         },
         {
           "name": "getRandomNumberUsingNextInt",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getRandomNumberForObjectTybe",
           "parameters": [],
           "javadoc": ""
         }

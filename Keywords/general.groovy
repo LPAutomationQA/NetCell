@@ -156,6 +156,18 @@ public class general {
 		String x = Integer.toString(random.nextInt(100 - 1) + 1);
 		return x;
 	}
+	
+	//------------Generate random number between 0 and 5 ------------------------------
+	@Keyword
+	String getRandomNumberForObjectTybe() {
+		Random random = new Random();
+		String x = Integer.toString(random.nextInt(5 - 1) + 1);
+		return x;
+	}
+	
+	
+	
+	
 }
 
 

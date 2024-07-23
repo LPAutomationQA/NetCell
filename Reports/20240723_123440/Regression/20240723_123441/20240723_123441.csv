@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 126.0.0.0,,,2024-07-23 12:34:43,2024-07-23 12:44:06,9m - 22.968s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XCells/TopX 4G Cell default,Chrome 126.0.0.0,,,2024-07-23 12:34:43,2024-07-23 12:35:36,52.025s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:34:44,2024-07-23 12:35:13,29.676s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:35:13,2024-07-23 12:35:13,0.028s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Cell"", false, ""Hourly"", false, null)",Chrome 126.0.0.0,,,2024-07-23 12:35:13,2024-07-23 12:35:35,22.085s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XCells/TopX 4G Cell with LowX,Chrome 126.0.0.0,,,2024-07-23 12:35:36,2024-07-23 12:36:48,1m - 12.654s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:35:36,2024-07-23 12:36:06,30.434s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:36:06,2024-07-23 12:36:06,0.036s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Cell"", true, ""Hourly"", true, null)",Chrome 126.0.0.0,,,2024-07-23 12:36:06,2024-07-23 12:36:48,42.026s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XPLMN/TopX 4G PLMN default,Chrome 126.0.0.0,,,2024-07-23 12:36:48,2024-07-23 12:37:53,1m - 5.147s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:36:48,2024-07-23 12:37:19,31.110s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:37:19,2024-07-23 12:37:19,0.032s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""PLMN"", false, ""Hourly"", false, null)",Chrome 126.0.0.0,,,2024-07-23 12:37:19,2024-07-23 12:37:53,33.832s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XPLMN/TopX 4G PLMN with LowX,Chrome 126.0.0.0,,,2024-07-23 12:37:53,2024-07-23 12:39:07,1m - 14.011s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:37:53,2024-07-23 12:38:31,37.525s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:38:31,2024-07-23 12:38:31,0.041s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""PLMN"", true, ""Hourly"", true, null)",Chrome 126.0.0.0,,,2024-07-23 12:38:31,2024-07-23 12:39:07,36.281s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XReagion/TopX 4G Region default,Chrome 126.0.0.0,,,2024-07-23 12:39:07,2024-07-23 12:39:53,45.970s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:39:08,2024-07-23 12:39:37,29.044s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:39:37,2024-07-23 12:39:37,0.033s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Region"", false, ""Hourly"", false, null)",Chrome 126.0.0.0,,,2024-07-23 12:39:37,2024-07-23 12:39:53,16.711s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XReagion/TopX 4G Region with LowX,Chrome 126.0.0.0,,,2024-07-23 12:39:53,2024-07-23 12:40:39,46.098s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:39:53,2024-07-23 12:40:21,27.606s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:40:21,2024-07-23 12:40:21,0.040s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Region"", true, ""Hourly"", true, null)",Chrome 126.0.0.0,,,2024-07-23 12:40:21,2024-07-23 12:40:39,18.289s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XRegion Band/TopX 4G Region Band default,Chrome 126.0.0.0,,,2024-07-23 12:40:39,2024-07-23 12:41:37,57.818s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:40:40,2024-07-23 12:41:07,27.015s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:41:07,2024-07-23 12:41:07,0.029s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Region Band"", false, ""Hourly"", false, null)",Chrome 126.0.0.0,,,2024-07-23 12:41:07,2024-07-23 12:41:37,30.544s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XRegion Band/TopX 4G Region Band with LowX,Chrome 126.0.0.0,,,2024-07-23 12:41:37,2024-07-23 12:42:30,53.218s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:41:37,2024-07-23 12:42:05,27.316s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:42:05,2024-07-23 12:42:05,0.067s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Region Band"", false, ""Hourly"", true, null)",Chrome 126.0.0.0,,,2024-07-23 12:42:05,2024-07-23 12:42:30,25.598s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XSite/TopX 4G Site default,Chrome 126.0.0.0,,,2024-07-23 12:42:30,2024-07-23 12:43:22,51.681s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:42:31,2024-07-23 12:42:55,24.577s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:42:55,2024-07-23 12:42:55,0.029s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Site"", false, ""Hourly"", false, null)",Chrome 126.0.0.0,,,2024-07-23 12:42:55,2024-07-23 12:43:22,26.900s,PASSED
+,,,,,,,
+Test Cases/PM/Hwauei/TopX/4G TopX/XSite/TopX 4G Site with LowX,Chrome 126.0.0.0,,,2024-07-23 12:43:22,2024-07-23 12:44:06,44.109s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-23 12:43:22,2024-07-23 12:43:50,27.552s,PASSED
+switchToWindowIndex(1),Chrome 126.0.0.0,,,2024-07-23 12:43:50,2024-07-23 12:43:50,0.027s,PASSED
+"PMHwaueiTopX.TopX(""4G"", ""Site"", false, ""Hourly"", true, null)",Chrome 126.0.0.0,,,2024-07-23 12:43:50,2024-07-23 12:44:06,16.356s,PASSED

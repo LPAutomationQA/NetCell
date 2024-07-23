@@ -26,4 +26,11 @@ WebUI.switchToWindowIndex(1)
 
 //Fill in the (Technology , ObjectType , Aggregation , ResolutionTemp , LowX , AggregationLevel)
 
-CustomKeywords.'PMHwaueiTopX.TopX'("4G", "Cell", false, "Hourly", false, null)
+CustomKeywords.'PMHwaueiTopX.TopX'("4G", "Cell", true, "Hourly", true, null)
+
+
+
+
+
+
+
