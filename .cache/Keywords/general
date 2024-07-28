@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6D028660D07D9541F69D0488898A4060",
+  "keywordFileContentHash": "B06CB7F56E6C4216DC8063F830864E3A",
   "keywordClasses": [
     {
       "name": "general",
@@ -53,6 +53,11 @@
         },
         {
           "name": "getRandomNumberForObjectTybe",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getRandomNumberForPLMNXDD",
           "parameters": [],
           "javadoc": ""
         }

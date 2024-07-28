@@ -64,9 +64,9 @@ public class PMHwaueiTopXRandom {
 				//Object Selection (PLMN)
 				//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX Object Type'))
 				//WebUI.delay(1)
-				//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNS/TopX PLMN'))
+				//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs/TopX PLMN'))
 					WebUI.delay(1)
-					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNS/TopX PLMN checkbox'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs/TopX PLMN checkbox'))
 					break
 				//-------------------------------------------------------------
 				case '2' :
