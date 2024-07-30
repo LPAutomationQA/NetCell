@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='pn_id_17_0']</value>
+         <value>//span[@class='ng-star-inserted'][normalize-space()='2G']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

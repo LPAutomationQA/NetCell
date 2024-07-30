@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B06CB7F56E6C4216DC8063F830864E3A",
+  "keywordFileContentHash": "0C8F838DA64E07180115FF640E2AFC9D",
   "keywordClasses": [
     {
       "name": "general",
@@ -57,7 +57,7 @@
           "javadoc": ""
         },
         {
-          "name": "getRandomNumberForPLMNXDD",
+          "name": "getRandomNumberToSelectFDDorTDD",
           "parameters": [],
           "javadoc": ""
         }

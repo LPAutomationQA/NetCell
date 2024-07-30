@@ -23,9 +23,9 @@ driver = CustomKeywords.'general.start'(GlobalVariable.SwagerURL, GlobalVariable
 
 WebUI.click(findTestObject("Object Repository/Login/LoginButton"))
 WebUI.switchToWindowIndex(2)
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com")
-WebUI.delay(2)
+WebUI.delay(1)
 WebUI.click(findTestObject("Object Repository/Login/NextButton"))
 WebUI.delay(2)
 WebUI.sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345")

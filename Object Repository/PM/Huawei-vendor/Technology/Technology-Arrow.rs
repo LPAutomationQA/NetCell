@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='pn_id_17']//chevrondownicon[@class='p-element p-icon-wrapper ng-star-inserted']//*[name()='svg']</value>
+         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-operation/div/div/div[2]/app-select/p-dropdown/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

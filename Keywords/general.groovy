@@ -164,10 +164,10 @@ public class general {
 		String x = Integer.toString(random.nextInt(5 - 1) + 1);
 		return x;
 	}
-	
+
 	//------------Generate random number between 1 and 2------------------------------
 	@Keyword
-	String getRandomNumberForPLMNXDD() {
+	String getRandomNumberToSelectFDDorTDD() {
 		Random random = new Random();
 		String x = Integer.toString(1 + random.nextInt(2));
 		return x;

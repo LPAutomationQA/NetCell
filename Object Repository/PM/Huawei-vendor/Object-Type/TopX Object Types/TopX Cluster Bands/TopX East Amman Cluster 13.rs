@@ -6,12 +6,11 @@
    <elementGuidId>1a845bab-f9ed-4442-ad9b-945a87a46903</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/div[1]/app-app-container[1]/div[1]/div[1]/app-main[1]/p-splitter[1]/div[1]/div[1]/app-left-side-menu[1]/div[1]/div[2]/app-target-tree[1]/app-target-type[1]/div[1]/div[3]/app-common-tree[1]/p-tree[1]/div[1]/div[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[2]/li[1]/div[1]/span[1]/span[1]/div[1]/span[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-target-tree/app-target-type/div[1]/div[3]/app-common-tree/p-tree/div/div/ul/p-treenode/li/ul/p-treenode[1]/li/ul/p-treenode[1]/li/ul/p-treenode[2]/li/div/span/span/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
