@@ -19,29 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
-CustomKeywords.'PMHwaueiStats.Stats'("4G","Region", true, "Hourly")
-//CustomKeywords.'PMHwaueiStats.Stats'("4G","Region", true, "Hourly")
-
+CustomKeywords.'PMHwaueiStats.Stats'("4G","Region Band", true, "Hourly")
 /*
+//Calling the Login method
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Switch from the azure to netcell window
 WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
 
+//Switch to the New opened tab
 WebUI.switchToWindowIndex(2)
 
+//Object Selection
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Region'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Region-Band'))
+
+//Object CheckBoxes
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/Arrow-East-Amman'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region-Band/East-Amman/FDD/Arrow-FDD'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region-Band/East-Amman/FDD/900-CheckBox'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region-Band/East-Amman/FDD/2100-Check-Box'))
+WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region-Band/East-Amman/TDD/TDD-CheckBox'), 0)
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region-Band/East-Amman/TDD/TDD-CheckBox'))
+
 
 WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'), 0)
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/East-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/South-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/West-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/East-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/North-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/South-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
+
 
 
 //Scroll Down
@@ -55,8 +61,9 @@ WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Sel
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
 
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'), 0)
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'))
 
+WebUI.delay(5)
 WebUI.closeBrowser()
 */

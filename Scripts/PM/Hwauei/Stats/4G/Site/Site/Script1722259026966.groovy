@@ -17,11 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
-CustomKeywords.'PMHwaueiStats.Stats'("4G","Region", true, "Hourly")
-//CustomKeywords.'PMHwaueiStats.Stats'("4G","Region", true, "Hourly")
-
+CustomKeywords.'PMHwaueiStats.Stats'("4G","Site", false, "Hourly")
 /*
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -32,17 +33,16 @@ WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
 WebUI.switchToWindowIndex(2)
 
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Region'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Site'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'), 0)
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/East-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/South-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/West-Amman-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/East-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/North-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Region/South-Jordan-CheckBox'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/Arrow-East-Amman'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option1'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option2'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option3'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option4'))
 
+
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
 
 //Scroll Down
 WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
@@ -55,8 +55,8 @@ WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Sel
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
 
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'), 0)
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'))
 
 WebUI.closeBrowser()
 */

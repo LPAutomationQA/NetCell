@@ -18,9 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.switchToWindowIndex(1)
+CustomKeywords.'PMHwaueiStats.Stats'("4G","Region", false, "Hourly")
 
+
+
+/*
 WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
 
 WebUI.switchToWindowIndex(2)
@@ -48,4 +51,4 @@ WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'), 0)
 
 WebUI.closeBrowser()
-
+*/
