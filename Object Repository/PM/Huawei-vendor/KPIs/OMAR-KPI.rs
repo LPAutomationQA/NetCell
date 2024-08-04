@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OMAR-KPI</name>
+   <tag></tag>
+   <elementGuidId>552c5bb9-7a73-47a4-aa96-149784f974ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/div[1]/app-app-container[1]/div[1]/div[1]/app-main[1]/p-splitter[1]/div[1]/div[1]/app-left-side-menu[1]/div[1]/div[2]/app-filters[1]/div[1]/div[1]/app-kpi-tree[1]/div[2]/div[2]/p-tree[1]/div[1]/div[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[15]/li[1]/div[1]/div[1]/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -637,6 +637,7 @@ public class PMHwaueiTopX {
 			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Technology/Technology-Arrow'))
 			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Technology/2G'))
 
+
 			switch (ObjectType)
 			{
 				case 'PLMN' :
@@ -647,6 +648,7 @@ public class PMHwaueiTopX {
 					WebUI.delay(1)
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs/TopX PLMN checkbox'))
 					break
+
 				//-------------------------------------------------------------
 				case 'Region' :
 				//Object Selection (Region)
@@ -1414,6 +1416,7 @@ public class PMHwaueiTopX {
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Resolution Temp/Select Resolution temp'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Resolution Temp/Resolution Temp Weekly'))
 
+
 				if (activeProfile == "ZainNetCell")
 				{
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopXDate/BeforeDate'))
@@ -1584,7 +1587,7 @@ public class PMHwaueiTopX {
 
 
 
-	   //Apply and Verify
+		//Apply and Verify
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Chart'), 0)

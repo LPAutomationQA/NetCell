@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "8CDFE03372F47486A4C5328DD4B4DA43",
+  "keywordFileContentHash": "D6E00CC431B2AD2DA655A147D450D08E",
   "keywordClasses": [
     {
       "name": "PMHwaueiStats",
@@ -59,11 +59,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

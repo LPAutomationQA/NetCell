@@ -4,6 +4,16 @@
    <name>MO-4G-BcchCfg</name>
    <tag></tag>
    <elementGuidId>9acc3399-c509-4bf8-94b9-1178e0de07ca</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@aria-label='MO_4G_BcchCfg']//div[@role='checkbox']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
