@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4G-View,Chrome 127.0.0.0,,,2024-08-04 15:36:03,2024-08-04 15:48:00,11m - 57.052s,ERROR
+,,,,,,,
+Test Cases/CM/View/4G/View-Cluster,Chrome 127.0.0.0,,,2024-08-04 15:36:04,2024-08-04 15:38:37,2m - 33.645s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-04 15:36:04,2024-08-04 15:36:30,25.923s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-04 15:36:30,2024-08-04 15:36:30,0.074s,PASSED
+"CMView.Stats(""4G"", ""Cluster"", false, ""Hourly"")",Chrome 127.0.0.0,,,2024-08-04 15:36:30,2024-08-04 15:38:37,2m - 7.283s,FAILED
+,,,,,,,
+Test Cases/CM/View/4G/View-Governorate XDD,Chrome 127.0.0.0,,,2024-08-04 15:38:37,2024-08-04 15:41:13,2m - 36.147s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-04 15:38:38,2024-08-04 15:39:02,24.813s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-04 15:39:02,2024-08-04 15:39:02,0.029s,PASSED
+"CMView.Stats(""4G"", ""Governorate XDD"", false, ""Hourly"")",Chrome 127.0.0.0,,,2024-08-04 15:39:02,2024-08-04 15:41:13,2m - 11.009s,FAILED
+,,,,,,,
+Test Cases/CM/View/4G/View-PLMN XDD,Chrome 127.0.0.0,,,2024-08-04 15:41:13,2024-08-04 15:41:44,30.763s,ERROR
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-04 15:41:14,2024-08-04 15:41:39,25.053s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-04 15:41:39,2024-08-04 15:41:39,0.025s,PASSED
+"CMView.Stats(""4G"", ""PLMN XDD"", false, ""Hourly"")",Chrome 127.0.0.0,,,2024-08-04 15:41:39,2024-08-04 15:41:44,5.482s,ERROR
+,,,,,,,
+Test Cases/CM/View/4G/View-Sector,Chrome 127.0.0.0,,,2024-08-04 15:41:44,2024-08-04 15:45:19,3m - 34.995s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-04 15:41:44,2024-08-04 15:42:07,22.962s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-04 15:42:07,2024-08-04 15:42:07,0.023s,PASSED
+"CMView.Stats(""4G"", ""Sector"", false, ""Hourly"")",Chrome 127.0.0.0,,,2024-08-04 15:42:07,2024-08-04 15:45:19,3m - 11.760s,FAILED
+,,,,,,,
+Test Cases/CM/View/4G/View-Cluster Band,Chrome 127.0.0.0,,,2024-08-04 15:45:19,2024-08-04 15:48:00,2m - 41.270s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-04 15:45:19,2024-08-04 15:45:41,21.880s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-04 15:45:41,2024-08-04 15:45:41,0.084s,PASSED
+"CMView.Stats(""4G"", ""Cluster Band"", false, ""Hourly"")",Chrome 127.0.0.0,,,2024-08-04 15:45:41,2024-08-04 15:48:00,2m - 19.122s,FAILED

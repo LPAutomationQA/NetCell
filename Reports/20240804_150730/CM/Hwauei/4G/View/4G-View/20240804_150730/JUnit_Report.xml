@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="4G-View" time="710.15" tests="5" failures="4" errors="1">
+   <testsuite name="4G-View" tests="5" failures="4" errors="1" time="710.15" skipped="0" timestamp="2024-08-04 15:07:32" hostname="FatimaIbeid - LP-FatimaIbeid" id="Test Suites/CM/Hwauei/4G/View/4G-View">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730"/>
+         <property name="logFiles" value="C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773419792.png, C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773582420.png, C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773811386.png, C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773811533.png, C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773962264.png"/>
+         <property name="hostName" value="FatimaIbeid - LP-FatimaIbeid"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.9.99"/>
+         <property name="sessionId" value="f3599392a384d0c5444e9ae4b9c89f88"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CM/View/4G/View-Cluster" time="167.457" classname="Test Cases/CM/View/4G/View-Cluster" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CM/View/4G/View-Cluster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1825229557=&quot;&quot; tooltipposition=&quot;right&quot; class=&quot;p-element p-tree-node-label&quot;>...&lt;/span> is not clickable at point (252, 622). Other element would receive the click: &lt;button _ngcontent-ng-c413764595=&quot;&quot; class=&quot;btn btn-primary&quot;>...&lt;/button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-08-04 15:07:32 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Cluster: Test Cases/CM/View/4G/View-Cluster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (252, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-08-04 15:07:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:07:32 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2024-08-04 15:07:33 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-08-04 15:07:33 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-08-04 15:07:35 - [MESSAGE][PASSED] - Current window maximized
+
+2024-08-04 15:07:36 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-08-04 15:07:36 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:07:48 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-08-04 15:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton")): Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:07:49 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2024-08-04 15:07:49 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:07:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:07:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:07:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:07:51 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:07:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/NextButton")): Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:07:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-08-04 15:07:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-08-04 15:07:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345"): Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:07:54 - [MESSAGE][PASSED] - Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:07:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:07:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/SigninButton")): Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:07:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:07:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/YesStayInButton")): Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:07:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:07:58 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-08-04 15:07:58 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:07:58 - [TEST_STEP][FAILED] - CMView.Stats("4G", "Cluster", false, "Hourly"): Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+
+2024-08-04 15:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-08-04 15:07:59 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-08-04 15:08:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Clusters/TopX Cluster' is clicked on
+
+2024-08-04 15:08:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:08:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-08-04 15:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow' is clicked on
+
+2024-08-04 15:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow' is clicked on
+
+2024-08-04 15:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 3' is clicked on
+
+2024-08-04 15:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 13' is clicked on
+
+2024-08-04 15:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow' is clicked on
+
+2024-08-04 15:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow' is clicked on
+
+2024-08-04 15:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 4' is clicked on
+
+2024-08-04 15:10:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (252, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1722428595512.run(Script1722428595512.groovy:24)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773419792.png]]
+
+2024-08-04 15:10:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14']]></system-out>
+         <system-err><![CDATA[2024-08-04 15:07:32 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Cluster: Test Cases/CM/View/4G/View-Cluster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (252, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/View/4G/View-Governorate XDD" time="162.713" classname="Test Cases/CM/View/4G/View-Governorate XDD" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CM/View/4G/View-Governorate XDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:562)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Governorate XDD.run(View-Governorate XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1825229557=&quot;&quot; tooltipposition=&quot;right&quot; class=&quot;p-element p-tree-node-label&quot;>...&lt;/span> is not clickable at point (247, 651). Other element would receive the click: &lt;button _ngcontent-ng-c413764595=&quot;&quot; class=&quot;btn btn-primary&quot;>...&lt;/button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae04ac382279a680a642564f1bf0a522
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-08-04 15:10:19 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Governorate XDD: Test Cases/CM/View/4G/View-Governorate XDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:562)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Governorate XDD.run(View-Governorate XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (247, 651). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae04ac382279a680a642564f1bf0a522
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-08-04 15:10:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:10:20 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2024-08-04 15:10:20 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-08-04 15:10:20 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-08-04 15:10:21 - [MESSAGE][PASSED] - Current window maximized
+
+2024-08-04 15:10:22 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-08-04 15:10:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:10:33 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-08-04 15:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton")): Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:10:34 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2024-08-04 15:10:34 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:10:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:10:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:10:36 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:10:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:10:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/NextButton")): Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:10:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-08-04 15:10:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-08-04 15:10:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345"): Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:10:39 - [MESSAGE][PASSED] - Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:10:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:10:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/SigninButton")): Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:10:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:10:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/YesStayInButton")): Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:10:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:10:43 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-08-04 15:10:43 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:10:43 - [TEST_STEP][FAILED] - CMView.Stats("4G", "Governorate XDD", false, "Hourly"): Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq'
+
+2024-08-04 15:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-08-04 15:10:44 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-08-04 15:10:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates XDD/TopX Governorate XDD' is clicked on
+
+2024-08-04 15:10:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:10:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-08-04 15:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow' is clicked on
+
+2024-08-04 15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Amman' is clicked on
+
+2024-08-04 15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Irbid' is clicked on
+
+2024-08-04 15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Aqaba' is clicked on
+
+2024-08-04 15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Jerash' is clicked on
+
+2024-08-04 15:13:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:562)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Governorate XDD.run(View-Governorate XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (247, 651). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae04ac382279a680a642564f1bf0a522
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:562)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1722428677106.run(Script1722428677106.groovy:23)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773582420.png]]
+
+2024-08-04 15:13:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq']]></system-out>
+         <system-err><![CDATA[2024-08-04 15:10:19 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Governorate XDD: Test Cases/CM/View/4G/View-Governorate XDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Governorates/TopX Mafraq'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:562)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Governorate XDD.run(View-Governorate XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (247, 651). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae04ac382279a680a642564f1bf0a522
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/View/4G/View-PLMN XDD" time="38.75" classname="Test Cases/CM/View/4G/View-PLMN XDD" status="ERROR">
+         <error type="ERROR" message="Test Cases/CM/View/4G/View-PLMN XDD FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at CMView.Stats(CMView.groovy:460)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-PLMN XDD.run(View-PLMN XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+"/>
+         <system-out><![CDATA[2024-08-04 15:13:02 - [TEST_CASE][ERROR] - Test Cases/CM/View/4G/View-PLMN XDD: Test Cases/CM/View/4G/View-PLMN XDD FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at CMView.Stats(CMView.groovy:460)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-PLMN XDD.run(View-PLMN XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+
+
+2024-08-04 15:13:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:13:02 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2024-08-04 15:13:02 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-08-04 15:13:02 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-08-04 15:13:04 - [MESSAGE][PASSED] - Current window maximized
+
+2024-08-04 15:13:04 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-08-04 15:13:04 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:13:16 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-08-04 15:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton")): Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:13:16 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2024-08-04 15:13:16 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:13:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:13:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:13:18 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:13:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:13:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/NextButton")): Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:13:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-08-04 15:13:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-08-04 15:13:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345"): Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:13:22 - [MESSAGE][PASSED] - Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:13:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:13:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/SigninButton")): Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:13:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:13:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/YesStayInButton")): Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:13:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:13:25 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-08-04 15:13:25 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:13:25 - [TEST_STEP][ERROR] - CMView.Stats("4G", "PLMN XDD", false, "Hourly"): Test Cases/CM/View/4G/View-PLMN XDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at View-PLMN XDD.run(View-PLMN XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at CMView.Stats(CMView.groovy:460)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-08-04 15:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-08-04 15:13:26 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-08-04 15:13:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs XDD/TopX PLMN XDD' is clicked on
+
+2024-08-04 15:13:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:13:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-08-04 15:13:41 - [MESSAGE][ERROR] - No such property: randomNumberForPLMNXDD for class: general
+
+2024-08-04 15:13:41 - [MESSAGE][ERROR] - Test Cases/CM/View/4G/View-PLMN XDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at View-PLMN XDD.run(View-PLMN XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at CMView.Stats(CMView.groovy:460)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2024-08-04 15:13:02 - [TEST_CASE][ERROR] - Test Cases/CM/View/4G/View-PLMN XDD: Test Cases/CM/View/4G/View-PLMN XDD FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: randomNumberForPLMNXDD for class: general
+	at CMView.Stats(CMView.groovy:460)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-PLMN XDD.run(View-PLMN XDD:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/View/4G/View-Sector" time="190.261" classname="Test Cases/CM/View/4G/View-Sector" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CM/View/4G/View-Sector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/CM/Table header' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:603)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Sector.run(View-Sector:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-08-04 15:13:41 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Sector: Test Cases/CM/View/4G/View-Sector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/CM/Table header' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:603)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Sector.run(View-Sector:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-08-04 15:13:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:13:41 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2024-08-04 15:13:41 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-08-04 15:13:41 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-08-04 15:13:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-08-04 15:13:43 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-08-04 15:13:43 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:13:56 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-08-04 15:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton")): Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:13:56 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2024-08-04 15:13:57 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:13:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:13:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:13:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:13:59 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:13:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:14:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/NextButton")): Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:14:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-08-04 15:14:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-08-04 15:14:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345"): Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:14:02 - [MESSAGE][PASSED] - Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:14:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:14:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/SigninButton")): Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:14:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:14:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/YesStayInButton")): Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:14:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:14:05 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-08-04 15:14:06 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:14:06 - [TEST_STEP][FAILED] - CMView.Stats("4G", "Sector", false, "Hourly"): Unable to verify object 'Object Repository/CM/Table header' is present
+
+2024-08-04 15:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-08-04 15:14:06 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-08-04 15:14:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX Sector' is clicked on
+
+2024-08-04 15:14:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:14:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-08-04 15:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region East Amman' is clicked on
+
+2024-08-04 15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow' is clicked on
+
+2024-08-04 15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX West Amman 1601A' is clicked on
+
+2024-08-04 15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow' is clicked on
+
+2024-08-04 15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman Arrow' is clicked on
+
+2024-08-04 15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX South Amman 101B' is clicked on
+
+2024-08-04 15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman CloseArrow' is clicked on
+
+2024-08-04 15:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan Arrow' is clicked on
+
+2024-08-04 15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX East Jordan 1001C' is clicked on
+
+2024-08-04 15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan CloseArrow' is clicked on
+
+2024-08-04 15:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow' is clicked on
+
+2024-08-04 15:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX North Jordan 1401A' is clicked on
+
+2024-08-04 15:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow' is clicked on
+
+2024-08-04 15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow' is clicked on
+
+2024-08-04 15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX South Jordan1203B' is clicked on
+
+2024-08-04 15:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow' is clicked on
+
+2024-08-04 15:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others Arrow' is clicked on
+
+2024-08-04 15:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX Others 6307C' is clicked on
+
+2024-08-04 15:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others CloseArrow' is clicked on
+
+2024-08-04 15:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:14:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CM/View/Target type/Target Type Arrow' successfully
+
+2024-08-04 15:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/Target type/Target Type Arrow' is clicked on
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/Target type/Cell' is clicked on
+
+2024-08-04 15:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CM/View/MOs/MO-4GCaCroupSCellCfg' successfully
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/MOs/MO-4G-BcchCfg' is clicked on
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/MOs/MO-4G-CaMgtCfg' is clicked on
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/MOs/MO-4G-CLZeroBufferzone' is clicked on
+
+2024-08-04 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/View/MOs/MO-4G-CSFallBackHo' is clicked on
+
+2024-08-04 15:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-08-04 15:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:14:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-08-04 15:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:16:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body//app-root//th[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-08-04 15:16:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:603)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Sector.run(View-Sector:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773811386.png]]
+
+2024-08-04 15:16:51 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/CM/Table header' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/CM/Table header' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:603)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Sector.run(View-Sector:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773811533.png]]
+
+2024-08-04 15:16:51 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/CM/Table header' is present]]></system-out>
+         <system-err><![CDATA[2024-08-04 15:13:41 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Sector: Test Cases/CM/View/4G/View-Sector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/CM/Table header' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:603)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Sector.run(View-Sector:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CM/Table header' located by '//body//app-root//th[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/View/4G/View-Cluster Band" time="150.765" classname="Test Cases/CM/View/4G/View-Cluster Band" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CM/View/4G/View-Cluster Band FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:367)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster Band.run(View-Cluster Band:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1825229557=&quot;&quot; tooltipposition=&quot;right&quot; class=&quot;p-element p-tree-node-label&quot;>...&lt;/span> is not clickable at point (255, 622). Other element would receive the click: &lt;button _ngcontent-ng-c413764595=&quot;&quot; class=&quot;btn btn-primary&quot;>...&lt;/button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3599392a384d0c5444e9ae4b9c89f88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-08-04 15:16:51 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Cluster Band: Test Cases/CM/View/4G/View-Cluster Band FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:367)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster Band.run(View-Cluster Band:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (255, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3599392a384d0c5444e9ae4b9c89f88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-08-04 15:16:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:16:51 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2024-08-04 15:16:51 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-08-04 15:16:51 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-08-04 15:16:53 - [MESSAGE][PASSED] - Current window maximized
+
+2024-08-04 15:16:53 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-08-04 15:16:53 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:17:06 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-08-04 15:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton")): Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton' is clicked on
+
+2024-08-04 15:17:06 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2024-08-04 15:17:06 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:17:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:17:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:17:08 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail'
+
+2024-08-04 15:17:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:17:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/NextButton")): Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NextButton' is clicked on
+
+2024-08-04 15:17:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-08-04 15:17:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-08-04 15:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345"): Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:17:11 - [MESSAGE][PASSED] - Keys 'Holder12345' sent to object: 'Object Repository/Login/EnterPassword'
+
+2024-08-04 15:17:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:17:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/SigninButton")): Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SigninButton' is clicked on
+
+2024-08-04 15:17:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-08-04 15:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/YesStayInButton")): Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/YesStayInButton' is clicked on
+
+2024-08-04 15:17:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2024-08-04 15:17:14 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-08-04 15:17:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-08-04 15:17:14 - [TEST_STEP][FAILED] - CMView.Stats("4G", "Cluster Band", false, "Hourly"): Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11'
+
+2024-08-04 15:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-08-04 15:17:15 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-08-04 15:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-08-04 15:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX Cluster Band' is clicked on
+
+2024-08-04 15:17:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-08-04 15:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-08-04 15:17:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-08-04 15:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Arrow' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman Arrow' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX South Amman Cluster 1' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX South Amman Cluster 6' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman CloseArrow' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan Arrow' is clicked on
+
+2024-08-04 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 10' is clicked on
+
+2024-08-04 15:19:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:367)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster Band.run(View-Cluster Band:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (255, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3599392a384d0c5444e9ae4b9c89f88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:367)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1722428560606.run(Script1722428560606.groovy:24)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20240804_150730\\CM\\Hwauei\\4G\\View\\4G-View\\20240804_150730\\1722773962264.png]]
+
+2024-08-04 15:19:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11']]></system-out>
+         <system-err><![CDATA[2024-08-04 15:16:51 - [TEST_CASE][FAILED] - Test Cases/CM/View/4G/View-Cluster Band: Test Cases/CM/View/4G/View-Cluster Band FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Jordan Cluster 11'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:367)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster Band.run(View-Cluster Band:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (255, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3599392a384d0c5444e9ae4b9c89f88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-08-04 15:07:32 - [TEST_SUITE][FAILED] - 4G-View: Test Cases/CM/View/4G/View-Cluster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (252, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2024-08-04 15:07:32 - [TEST_SUITE][FAILED] - 4G-View: Test Cases/CM/View/4G/View-Cluster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CMView.Stats(CMView.groovy:419)
+	at CMView.invokeMethod(CMView.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at View-Cluster.run(View-Cluster:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1722773250522.run(TempTestSuite1722773250522.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c1825229557="" tooltipposition="right" class="p-element p-tree-node-label">...</span> is not clickable at point (252, 622). Other element would receive the click: <button _ngcontent-ng-c413764595="" class="btn btn-primary">...</button>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LP-FATIMAIBEID', ip: '192.168.9.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\FATIMA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81efbf249d94a5ade4e3667d2b8b589
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

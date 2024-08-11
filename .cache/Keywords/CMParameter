@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CDD7AA101F102291EB173019610BFC54",
+  "keywordFileContentHash": "2CE81B521099F23A291D7931E3F8E89B",
   "keywordClasses": [
     {
       "name": "CMParameter",
@@ -59,10 +59,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

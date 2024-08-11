@@ -588,8 +588,8 @@ public class PMHwaueiStats {
 
 				//------------------------------End Switch
 			}
-		}//-------------------------------------End if statment technolgy 4G 
-		
+		}//-------------------------------------End if statment technolgy 4G
+
 		//-------------------------------------------------------------------------2G--------------------------------------------------------------------------------------------------
 		if (Technology == "2G")
 		{
@@ -1274,73 +1274,73 @@ public class PMHwaueiStats {
 
 
 
-			//Aggregation
-			//No Aggregation FOR TopX
-			if (Aggregation == true)
-			{
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
-			}
+		//Aggregation
+		//No Aggregation FOR TopX
+		if (Aggregation == true)
+		{
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
+		}
 
 
-			//ScrollDown
-			WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
+		//ScrollDown
+		WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
 
-			//WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/LowXlabel"), 0)
+		//WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/LowXlabel"), 0)
 
-			String activeProfile = RunConfiguration.getExecutionProfile()
-
-
-			switch (ResolutionTemp)
-			{
-
-				case 'Hourly' :
-
-					if (activeProfile == "ZainNetCell")
-					{
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
-						WebUI.delay(1)
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/May-Selection'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-May'))
-
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/End-Time-Button'))
-						WebUI.delay(1)
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/Monthly-Selection'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/May-Selection'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/30-May'))
-
-						// To handle Omar-tab KPI issue and uncheck it
-						WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/KPIs/HO-kpi-checkbox'), 0)
-						WebUI.delay(1)
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/KPIs/OMAR-KPI'))
-
-					}
-					else
-					{
-						//Date Selection
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Selection'))
-						WebUI.delay(1)
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
-						break
-					}
+		String activeProfile = RunConfiguration.getExecutionProfile()
 
 
-			}
-			//Apply and Verify
-			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
-			WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
-			WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Result'), 0)
+		switch (ResolutionTemp)
+		{
+
+			case 'Hourly' :
+
+				if (activeProfile == "ZainNetCell")
+				{
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
+					WebUI.delay(1)
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/May-Selection'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-May'))
+
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/End-Time-Button'))
+					WebUI.delay(1)
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/Monthly-Selection'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/May-Selection'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/End-date/30-May'))
+
+					// To handle Omar-tab KPI issue and uncheck it
+					WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/KPIs/HO-kpi-checkbox'), 0)
+					WebUI.delay(1)
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/KPIs/OMAR-KPI'))
+
+				}
+				else
+				{
+					//Date Selection
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Selection'))
+					WebUI.delay(1)
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
+					break
+				}
 
 
-			//WebUI.delay(10)
-			WebUI.closeBrowser()
+		}
+		//Apply and Verify
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Result'), 0)
+
+
+		//WebUI.delay(10)
+		WebUI.closeBrowser()
 
 
 
 
-		
+
 
 
 	}

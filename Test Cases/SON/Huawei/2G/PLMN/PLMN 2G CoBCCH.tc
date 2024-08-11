@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN 2G CoBCCH</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea53bec1-6c9b-4412-a879-2747ff76b7ef</testCaseGuid>
+</TestCaseEntity>
