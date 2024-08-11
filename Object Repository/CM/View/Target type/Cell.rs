@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/p-dropdownitem[1]/li[1]</value>
+         <value>//li[@id='pn_id_29_0']</value>
       </entry>
       <entry>
          <key>BASIC</key>

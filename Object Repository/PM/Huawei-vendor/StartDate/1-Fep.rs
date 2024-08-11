@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='p-ripple p-element ng-tns-c1685646730-9 ng-star-inserted'][normalize-space()='1']</value>
+         <value>/html[1]/body[1]/ngb-popover-window[1]/div[2]/p-calendar[1]/span[1]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[6]/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

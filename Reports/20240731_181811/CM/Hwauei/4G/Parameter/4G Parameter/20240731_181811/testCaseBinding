@@ -1,0 +1,12 @@
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-PLMN","testCaseId":"Test Cases/CM/Parameter/Parameter-PLMN","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Region","testCaseId":"Test Cases/CM/Parameter/Parameter-Region","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Site","testCaseId":"Test Cases/CM/Parameter/Parameter-Site","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Cell","testCaseId":"Test Cases/CM/Parameter/Parameter-Cell","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Cluster","testCaseId":"Test Cases/CM/Parameter/Parameter-Cluster","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Cluster Band","testCaseId":"Test Cases/CM/Parameter/Parameter-Cluster Band","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Governorate","testCaseId":"Test Cases/CM/Parameter/Parameter-Governorate","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Governorate XDD","testCaseId":"Test Cases/CM/Parameter/Parameter-Governorate XDD","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-PLMN XDD","testCaseId":"Test Cases/CM/Parameter/Parameter-PLMN XDD","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Region Band","testCaseId":"Test Cases/CM/Parameter/Parameter-Region Band","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Region XDD","testCaseId":"Test Cases/CM/Parameter/Parameter-Region XDD","iterationVariableName":""}
+{"testCaseName":"Test Cases/CM/Parameter/Parameter-Sector","testCaseId":"Test Cases/CM/Parameter/Parameter-Sector","iterationVariableName":""}
