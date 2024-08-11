@@ -1584,7 +1584,7 @@ public class PMHwaueiTopX {
 
 
 
-	   //Apply and Verify
+		//-----------------Apply and Verify
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Chart'), 0)
@@ -1592,6 +1592,47 @@ public class PMHwaueiTopX {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View'), 0)
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View'))
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Reordering the table view'))
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View Filter ICon'))
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TableView CheckBox'))
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View Resolution'))
+
+		//Select the Resolution from the table view Daily or Hourly Randomly
+		String Resolution = general.randomNumberToSelectFDDorTDD
+		if (Resolution == '1')
+		{
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table view Resolution Daily'))
+		}
+		else //Resolution == '2'
+		{
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table view Resolution Hourly'))
+		}
+
+		//Select the Start and end date from the table view
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View Start Date'))
+		WebUI.sendKeys(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View Start Date'), "02/01/2024")
+
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View End Date'))
+		WebUI.sendKeys(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View End Date'), "02/07/2024")
+
+		//Click on Show Map
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View Show on map'))
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
+		//Switch to the map tab
+		WebUI.switchToWindowIndex(3)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Map'), 0)
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
+		//Close the map tab and Back to the PM
+		WebUI.closeWindowIndex(3)
+		WebUI.switchToWindowIndex(2)
+
+		//Click on Show Stats
+		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table view Show stats'))
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
+		//Switch to the Stats tab
+		WebUI.switchToWindowIndex(3)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Stats Export Chart'), 0)
+
+		//Close
 		WebUI.closeBrowser()
 
 	}//End TopX KeyWord

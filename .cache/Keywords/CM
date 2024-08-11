@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F49FD8F68223F5DC82F53939FF6234FF",
+  "keywordFileContentHash": "3CDEB5594813550454D249D73916A0DD",
   "keywordClasses": [
     {
       "name": "CM",
@@ -59,10 +59,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "055C2A0CEF14B3CACF8D8A036A2B5B21",
+  "keywordFileContentHash": "A13345048689E536A3A0039A1BA01079",
   "keywordClasses": [
     {
       "name": "PMHwaueiTopX",
@@ -85,10 +85,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
