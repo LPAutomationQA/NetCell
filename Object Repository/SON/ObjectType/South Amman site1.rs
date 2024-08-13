@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX East Amman site1</name>
+   <name>South Amman site1</name>
    <tag></tag>
-   <elementGuidId>87b6ddb0-ff07-4dd2-9092-61a5755d0de1</elementGuidId>
+   <elementGuidId>09e5155e-45ee-470b-acc3-5f80c4571b1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='301-ULT_King_Hussein_St_PD_Fiber_Manage']//div[@role='checkbox']
-</value>
+         <value>//li[@aria-label='101-Sweifieh_Olympia_PE_GPON_TASC']//div[@role='checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
