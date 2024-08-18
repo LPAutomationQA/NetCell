@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX Object Type</name>
+   <name>South Amman Site1 Cell1 4G</name>
    <tag></tag>
-   <elementGuidId>8477c06c-4928-4d84-8865-185c3a720020</elementGuidId>
+   <elementGuidId>9aa80bc1-b43b-42d2-9f51-b7c86db89559</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'101-UL_Sweifieh_Olympia_PE_GPON_TASC_A1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@aria-label='Select']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

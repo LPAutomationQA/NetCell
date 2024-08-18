@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX Object Type</name>
+   <name>East Jordan Site1 Cell1 2G</name>
    <tag></tag>
-   <elementGuidId>8477c06c-4928-4d84-8865-185c3a720020</elementGuidId>
+   <elementGuidId>c9af28aa-e4bc-489a-9a94-e90de19b0176</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[@class='p-element p-tree-node-label'][normalize-space()='1001-BSC_Dwaik_PA_Fiber_TASC_O-A']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@aria-label='Select']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

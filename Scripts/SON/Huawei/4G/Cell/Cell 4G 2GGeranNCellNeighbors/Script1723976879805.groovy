@@ -17,25 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-//CustomKeywords.'general.StartUp'()
-driver = CustomKeywords.'general.start'(GlobalVariable.SwagerURL, GlobalVariable.NetCellURL)
-
-
-WebUI.click(findTestObject("Object Repository/Login/LoginButton"))
-
-WebUI.switchToWindowIndex(2)
-WebUI.delay(1)
-WebUI.sendKeys(findTestObject("Object Repository/Login/EnterEmail"), "homam@zztjg.onmicrosoft.com")
-WebUI.delay(1)
-WebUI.click(findTestObject("Object Repository/Login/NextButton"))
-WebUI.delay(2)
-WebUI.sendKeys(findTestObject("Object Repository/Login/EnterPassword"), "Holder12345")
-WebUI.delay(1)
-WebUI.click(findTestObject("Object Repository/Login/SigninButton"))
-WebUI.delay(1)
-WebUI.click(findTestObject("Object Repository/Login/YesStayInButton"))
-//WebUI.waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0)
-
-
-
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToWindowIndex(1)
+CustomKeywords.'SON.son'("huawei","4G", "Cell", "4G 2GGeranNCellNeighbors")

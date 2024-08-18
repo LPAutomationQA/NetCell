@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX Object Type</name>
+   <name>North Jordan Site1 Cell1 3G</name>
    <tag></tag>
-   <elementGuidId>8477c06c-4928-4d84-8865-185c3a720020</elementGuidId>
+   <elementGuidId>e07f960b-9cb3-4f5b-adb2-376aca855d54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'401-U_Maru_Irbid_PD_Fiber_TASC_C4')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@aria-label='Select']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E1FC4FBD65A21B41F210FB673246CDBB",
+  "keywordFileContentHash": "8BB641DA9E46C14222F7234AD04940FC",
   "keywordClasses": [
     {
       "name": "SON",
@@ -67,6 +67,19 @@
           "parameters": [
             {
               "name": "ObjectType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "Technology",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
