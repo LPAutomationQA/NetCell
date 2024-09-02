@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='401-Maru_Irbid_PD_Fiber_TASC']//div[@role='checkbox']</value>
+         <value>//span[contains(text(),'4442-Irbid_Camp_North_PD_Fiber_O')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

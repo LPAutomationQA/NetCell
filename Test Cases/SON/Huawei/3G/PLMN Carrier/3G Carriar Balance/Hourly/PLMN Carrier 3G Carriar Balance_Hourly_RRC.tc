@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN Carrier 3G Carriar Balance_Hourly_RRC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1690c21c-24aa-4890-9ab0-65eacbd3dcbf</testCaseGuid>
+</TestCaseEntity>

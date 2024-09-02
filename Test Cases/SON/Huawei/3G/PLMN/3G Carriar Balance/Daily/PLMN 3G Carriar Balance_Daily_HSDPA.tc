@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN 3G Carriar Balance_Daily_HSDPA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5b11472-c711-43b3-8bb7-4bb3ab4fb2f0</testCaseGuid>
+</TestCaseEntity>

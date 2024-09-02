@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RNC 3G Carriar Balance_Hourly_RRC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb906351-02a5-45b7-94d9-e5681fdbaf75</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Region Carrier 3G Carriar Balance_Hourly_RRC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0d4eff2-8d7c-4b51-b544-269bd4e48f51</testCaseGuid>
+</TestCaseEntity>

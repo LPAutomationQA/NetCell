@@ -16,7 +16,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
+import java.text.SimpleDateFormat
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -35,15 +35,13 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.By
+
 import org.openqa.selenium.Keys
 
 class SON {
 
 	@Keyword
-	def son(String Vendor,String Technology ,String ObjectType ,String SonType) {
+	def son(String Vendor,String Technology ,String ObjectType ,String SonType,String Resolution, String KPI) {
 
 		def general = new general()
 		//Click on the SON
@@ -53,8 +51,8 @@ class SON {
 		WebUI.switchToWindowIndex(2)
 
 		if (Vendor=="Nokia") {
-	          WebUI.click(findTestObject('Object Repository/SON/Vendor'))
-			  WebUI.click(findTestObject('Object Repository/SON/Nokia'))
+			WebUI.click(findTestObject('Object Repository/SON/Vendor'))
+			WebUI.click(findTestObject('Object Repository/SON/Nokia'))
 		}
 
 		switch (Technology) {
@@ -70,22 +68,32 @@ class SON {
 
 				break
 		}
-	
+
 		//---Select the Object Type
 		selectObjectType( ObjectType ,Technology )
-         WebUI.delay(2)
-		 
-		 //-----Select SonType
+		WebUI.delay(2)
+
+		//-----Select SonType
 		WebUI.click(findTestObject('Object Repository/SON/SonType/Type-Arrow'))
 		WebDriver driver = DriverFactory.getWebDriver();
 
-		
+
 		driver.findElement(By.xpath('//span[contains(text(),"'+SonType+'")]')).click();
 
+		//Set Resolution
+		selectResolution(driver,Resolution)
 
+		if (KPI!="") {
+			WebUI.click(findTestObject('Object Repository/SON/KPI/'+ KPI ))
+		}
 
 		//Apply and Verify
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
+
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/SON/Error'), 200)
+		/*
+		 WebUI.verifyElementPresent(findTestObject('Object Repository/SON/table'), 1)
+		 WebUI.verifyElementPresent(findTestObject('Object Repository/SON/No Data'), 1)*/
 
 	}
 
@@ -209,32 +217,32 @@ class SON {
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX East Amman Site1 Arrow'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX East Amman Site1 Cell1'))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/East Amman Site1 Cell1 2G'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX West Amman Site1 Arrow'))
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX West Amman Site1 Cell1'))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/West Amman Site1 Cell1 2G'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX South Amman Site1 Arrow'))
-				WebUI.click(findTestObject('Object Repository/SON/ObjectType/South Amman Site1 Cell1'+" "+ Technology))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/South Amman Site1 Cell1'+" "+ Technology))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX East Jordan Site1 Arrow'))
-				WebUI.click(findTestObject('Object Repository/SON/ObjectType/East Jordan Site1 Cell1'+" "+ Technology))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/East Jordan Site1 Cell1'+" "+ Technology))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX North Jordan Site1 Arrow'))
-				WebUI.click(findTestObject('Object Repository/SON/ObjectType/North Jordan Site1 Cell1'+" "+ Technology))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/North Jordan Site1 Cell1'+" "+ Technology))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX South Jordan Site1 Arrow'))
-				WebUI.click(findTestObject('Object Repository/SON/ObjectType/South Jordan Site1 Cell1'+" "+ Technology))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/South Jordan Site1 Cell1'+" "+ Technology))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 
 				if (Technology=='2G') {WebUI.click(findTestObject('Object Repository/SON/ObjectType/Other Site'))}
@@ -250,8 +258,8 @@ class SON {
 			//-------------------------------------------------------------
 			case 'Region Band' :
 			//Object Selection (Region Band)
-			
-			
+
+
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX Reagion Band'))
 				WebUI.delay(1)
 				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
@@ -280,7 +288,7 @@ class SON {
 			//-------------------------------------------------------------
 			case 'Region XDD' :
 			//Object Selection (Region XDD)
-			
+
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX Region XDD'))
 				WebUI.delay(1)
 				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
@@ -347,7 +355,7 @@ class SON {
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Clusters/TopX West Amman Cluster 5'))
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow'))
 
-					
+
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Clusters/TopX North Jordan Cluster 4'))
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Clusters/TopX North Jordan Cluster 14'))
@@ -377,20 +385,20 @@ class SON {
 
 				else {
 
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow'))
 
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 3'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 13'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow'))
-						WebUI.scrollToElement(findTestObject('Object Repository/SON/sonBtn'), 0)
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 4'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Close Arrow'))
-						
-						
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 3'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 13'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow'))
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/sonBtn'), 0)
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 4'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX North Jordan Cluster 14'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Close Arrow'))
+
+
 				}
 				break
 			//-------------------------------------------------
@@ -439,11 +447,11 @@ class SON {
 				if (Technology=='3G') {WebUI.click(findTestObject('Object Repository/SON/ObjectType/Other Site'))}
 				else {
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others Arrow'))
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX Others 6307C'))
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others CloseArrow'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sectors/TopX Others 6307C'))
+					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others CloseArrow'))
 
 				}
-				
+
 
 
 				break
@@ -518,44 +526,165 @@ class SON {
 				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC Ader'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC Fifa'))
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC HQ 02'))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/BSC/TopX BSC HQ 04'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC AA 01'))
-				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC 415044'))
+			//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC 415044'))
 				break
-				
+
 			case 'RNC' :
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC'))
-			   WebUI.delay(1)
-			   WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
-			
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 01'))
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 02'))
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 06'))
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 09'))
-			   WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 11'))
-			   break
-			   
-		  case 'Region Carrier' :
-		      WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions Carrier/TopX Region Carrier'))
-		      WebUI.delay(1)
-		      WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
-		      WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region East Amman'))
-		      WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region West Amman'))
-		      WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region South Jordan'))
-		      WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region North Jordan'))
-		      break
-			  
-	    case 'PLMN Carrier' :
-			  WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier'))
-			  WebUI.delay(1)
-			  WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
-			  
-			  WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F1'))
-			  WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F2'))
-			  WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F4'))
-			  break
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC'))
+				WebUI.delay(1)
+				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
+
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 01'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 02'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 06'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 09'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX RNCs/TopX RNC 11'))
+				break
+
+			case 'Region Carrier' :
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions Carrier/TopX Region Carrier'))
+				WebUI.delay(1)
+				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region East Amman'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region West Amman'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region South Jordan'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region North Jordan'))
+				break
+
+			case 'PLMN Carrier' :
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier'))
+				WebUI.delay(1)
+				WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/Object Border"), 0)
+
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F1'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F2'))
+				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs Carrier/TopX PLMN Carrier F4'))
+				break
 		}
 	}
+
+	//------select Date -----------------------------------------------------
+	@Keyword
+
+	def selectResolution(WebDriver driver,String ResolutionTemp) {
+
+
+		if (ResolutionTemp!="") {
+
+			switch (ResolutionTemp)
+			{
+
+				case 'Hourly' :
+					String startDate=date('Last week')
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+					break
+				//----------------------------------------------
+
+				case 'Daily' :
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Daily'))
+
+					String startDate=date('Yesterday')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+					break
+				//---------------------------------------------
+
+				case 'Weekly' :
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Weekly'))
+
+					String startDate=date('Last week')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+
+					break
+				//------------------------------------------
+
+				case 'Monthly' :
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Monthly'))
+
+					String startDate=date('Last Month')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+
+					break
+				//---------------------------------------
+
+				case 'DailyBH' :
+
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/DailyBH'))
+
+					String startDate=date('Yesterday')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+
+					break
+				//------------------------------------------
+
+				case 'WeeklyBH' :
+
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/WeeklyBH'))
+
+					String startDate=date('Last week')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+					break
+				//------------------------------------------
+				case 'MonthlyBH' :
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/MonthlyBH'))
+
+					String startDate=date('Last Month')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+					break
+
+			}
+
+
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Selection'))
+			WebUI.delay(1)
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
+		}
+	}
+
+
+	@Keyword
+	String date(String day ) {
+
+		String date
+		Calendar calendar = Calendar.getInstance();
+		Date today = calendar.getTime();
+
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MMM dd, yyyy")
+
+		if (day=='Last week') {
+
+			//date = dateFormat.format(today)
+			calendar.add(Calendar.DAY_OF_YEAR, -7)
+			Date LastWeek = calendar.getTime()
+			date = dateFormat.format(LastWeek)
+			println date
+		}
+		else if (day=='Yesterday') {calendar.add(Calendar.DAY_OF_YEAR, -1)
+			Date Yesterday = calendar.getTime()
+			date = dateFormat.format(Yesterday)}
+
+		else if (day=='Last Month') {calendar.add(Calendar.DAY_OF_YEAR, -30)
+			Date LastMonth = calendar.getTime()
+			date = dateFormat.format(LastMonth)}
+
+		return date
+	}
+
 
 
 

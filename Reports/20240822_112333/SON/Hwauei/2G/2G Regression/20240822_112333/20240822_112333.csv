@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2G Regression,Chrome 127.0.0.0,,,2024-08-22 11:23:35,2024-08-22 11:29:15,5m - 40.284s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:23:35,2024-08-22 11:24:23,48.155s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:23:35,2024-08-22 11:24:01,25.789s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:24:01,2024-08-22 11:24:01,0.074s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:24:01,2024-08-22 11:24:23,22.022s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:24:23,2024-08-22 11:25:11,47.259s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:24:23,2024-08-22 11:24:47,23.704s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:24:47,2024-08-22 11:24:47,0.094s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:24:47,2024-08-22 11:25:11,23.250s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:25:11,2024-08-22 11:25:58,47.447s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:25:11,2024-08-22 11:25:35,24.264s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:25:35,2024-08-22 11:25:35,0.031s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:25:35,2024-08-22 11:25:58,22.848s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:25:58,2024-08-22 11:26:52,54.307s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:25:58,2024-08-22 11:26:24,25.328s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:26:24,2024-08-22 11:26:24,0.096s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:26:24,2024-08-22 11:26:52,28.582s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:26:52,2024-08-22 11:27:33,40.982s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:26:53,2024-08-22 11:27:17,24.191s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:27:17,2024-08-22 11:27:17,0.090s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:27:17,2024-08-22 11:27:33,16.321s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:27:33,2024-08-22 11:28:12,38.642s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:27:33,2024-08-22 11:27:56,22.235s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:27:56,2024-08-22 11:27:56,0.129s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:27:56,2024-08-22 11:28:12,16.088s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate 2G Neighbors,Chrome 127.0.0.0,,,2024-08-22 11:28:12,2024-08-22 11:29:15,1m - 3.268s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 127.0.0.0,,,2024-08-22 11:28:12,2024-08-22 11:28:37,24.563s,PASSED
+switchToWindowIndex(1),Chrome 127.0.0.0,,,2024-08-22 11:28:37,2024-08-22 11:28:37,0.044s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""2G Neighbors"")",Chrome 127.0.0.0,,,2024-08-22 11:28:37,2024-08-22 11:29:15,38.469s,PASSED

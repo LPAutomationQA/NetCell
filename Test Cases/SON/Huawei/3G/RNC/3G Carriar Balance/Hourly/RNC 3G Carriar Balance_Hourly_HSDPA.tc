@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RNC 3G Carriar Balance_Hourly_HSDPA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4360130-a2cb-4fda-a8cd-e89b9917ae1b</testCaseGuid>
+</TestCaseEntity>
