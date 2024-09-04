@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RNC 3G Carriar Balance_DailyBH_Total AMR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2e115bf-f011-47d5-86a9-e50ff97ef85b</testCaseGuid>
+</TestCaseEntity>

@@ -22,6 +22,6 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
 
 
-CustomKeywords.'SON.son'('huawei', '2G', 'Governorate', 'Sleeping Cells', 'Monthly')
+CustomKeywords.'SON.son'('huawei', '2G', 'Governorate', 'Sleeping Cells', 'Monthly','')
 
 

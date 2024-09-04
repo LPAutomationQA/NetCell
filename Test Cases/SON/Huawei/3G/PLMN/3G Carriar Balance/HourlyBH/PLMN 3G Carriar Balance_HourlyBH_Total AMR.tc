@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN 3G Carriar Balance_HourlyBH_Total AMR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6059020-d5f9-4946-93a2-d4784e8a4166</testCaseGuid>
+</TestCaseEntity>

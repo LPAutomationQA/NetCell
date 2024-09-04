@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN Carrier 3G Carriar Balance_Monthly_RRC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4dff0a5-e9cf-4372-99c8-c29e8e092267</testCaseGuid>
+</TestCaseEntity>

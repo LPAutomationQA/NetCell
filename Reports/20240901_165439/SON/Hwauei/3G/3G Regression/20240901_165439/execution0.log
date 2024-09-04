@@ -1127,3 +1127,4 @@
   <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
+</log>

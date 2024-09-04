@@ -1,0 +1,350 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2G Regression,Chrome 128.0.0.0,,,2024-09-03 16:44:13,2024-09-03 18:15:51,1h - 31m - 38.151s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:44:13,2024-09-03 16:45:07,54.031s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:44:13,2024-09-03 16:44:39,25.231s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:44:39,2024-09-03 16:44:39,0.059s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:44:39,2024-09-03 16:45:07,28.502s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:45:07,2024-09-03 16:46:02,54.936s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:45:07,2024-09-03 16:45:32,24.976s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:45:32,2024-09-03 16:45:32,0.069s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:45:32,2024-09-03 16:46:02,29.690s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:46:02,2024-09-03 16:48:41,2m - 38.690s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:46:02,2024-09-03 16:46:27,24.802s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:46:27,2024-09-03 16:46:27,0.041s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:46:27,2024-09-03 16:48:41,2m - 13.630s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:48:41,2024-09-03 16:51:20,2m - 38.703s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:48:41,2024-09-03 16:49:06,24.650s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:49:06,2024-09-03 16:49:06,0.076s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:49:06,2024-09-03 16:51:20,2m - 13.770s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:51:20,2024-09-03 16:52:02,42.149s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:51:20,2024-09-03 16:51:44,24.527s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:51:44,2024-09-03 16:51:44,0.063s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:51:44,2024-09-03 16:52:02,17.382s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:52:02,2024-09-03 16:52:41,39.755s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:52:02,2024-09-03 16:52:26,23.884s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:52:26,2024-09-03 16:52:26,0.087s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:52:26,2024-09-03 16:52:41,15.495s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate 2G Neighbors,Chrome 128.0.0.0,,,2024-09-03 16:52:41,2024-09-03 16:53:33,51.220s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:52:42,2024-09-03 16:53:06,24.140s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:53:06,2024-09-03 16:53:06,0.070s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""2G Neighbors"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:53:06,2024-09-03 16:53:33,26.819s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:53:33,2024-09-03 16:54:14,41.748s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:53:33,2024-09-03 16:53:58,24.797s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:53:58,2024-09-03 16:53:58,0.071s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:53:58,2024-09-03 16:54:14,16.689s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:54:14,2024-09-03 16:54:50,36.020s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:54:15,2024-09-03 16:54:39,24.672s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:54:39,2024-09-03 16:54:39,0.065s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:54:39,2024-09-03 16:54:50,11.066s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:54:50,2024-09-03 16:57:21,2m - 30.335s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:54:51,2024-09-03 16:55:15,24.653s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:55:15,2024-09-03 16:55:15,0.060s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:55:15,2024-09-03 16:57:21,2m - 5.407s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:57:21,2024-09-03 16:58:06,45.028s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:57:21,2024-09-03 16:57:46,24.631s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:57:46,2024-09-03 16:57:46,0.058s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:57:46,2024-09-03 16:58:06,20.054s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:58:06,2024-09-03 16:58:41,34.842s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:58:06,2024-09-03 16:58:31,24.521s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:58:31,2024-09-03 16:58:31,0.072s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:58:31,2024-09-03 16:58:41,9.962s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:58:41,2024-09-03 16:59:21,39.885s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:58:41,2024-09-03 16:59:03,22.096s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:59:03,2024-09-03 16:59:03,0.072s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:59:03,2024-09-03 16:59:21,17.456s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CoBCCH,Chrome 128.0.0.0,,,2024-09-03 16:59:21,2024-09-03 16:59:58,37.035s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:59:21,2024-09-03 16:59:45,23.733s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 16:59:45,2024-09-03 16:59:45,0.056s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""2G CoBCCH"", """", """")",Chrome 128.0.0.0,,,2024-09-03 16:59:45,2024-09-03 16:59:58,12.633s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 16:59:58,2024-09-03 17:04:03,4m - 5.065s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 16:59:58,2024-09-03 17:00:20,22.441s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:00:20,2024-09-03 17:00:20,0.031s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:00:20,2024-09-03 17:04:03,3m - 42.213s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:04:03,2024-09-03 17:07:58,3m - 55.055s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:04:03,2024-09-03 17:04:27,23.494s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:04:27,2024-09-03 17:04:27,0.056s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:04:27,2024-09-03 17:07:58,3m - 31.065s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:07:58,2024-09-03 17:10:33,2m - 34.883s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:07:58,2024-09-03 17:08:24,25.918s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:08:24,2024-09-03 17:08:24,0.045s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:08:24,2024-09-03 17:10:33,2m - 8.272s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:10:33,2024-09-03 17:11:22,49.837s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:10:33,2024-09-03 17:10:56,23.057s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:10:56,2024-09-03 17:10:56,0.073s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:10:56,2024-09-03 17:11:22,26.369s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:11:22,2024-09-03 17:15:16,3m - 53.786s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:11:23,2024-09-03 17:11:46,23.227s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:11:46,2024-09-03 17:11:46,0.040s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:11:46,2024-09-03 17:15:16,3m - 30.340s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:15:16,2024-09-03 17:19:12,3m - 55.343s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:15:16,2024-09-03 17:15:42,25.187s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:15:42,2024-09-03 17:15:42,0.074s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:15:42,2024-09-03 17:19:12,3m - 29.879s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Hourly,Chrome 128.0.0.0,,,2024-09-03 17:19:12,2024-09-03 17:23:10,3m - 58.545s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:19:12,2024-09-03 17:19:38,25.693s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:19:38,2024-09-03 17:19:38,0.029s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""Hourly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:19:38,2024-09-03 17:23:10,3m - 32.602s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:23:10,2024-09-03 17:25:12,2m - 1.711s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:23:10,2024-09-03 17:23:33,22.715s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:23:33,2024-09-03 17:23:33,0.073s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:23:33,2024-09-03 17:25:12,1m - 38.623s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:25:12,2024-09-03 17:26:06,54.380s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:25:12,2024-09-03 17:25:37,24.486s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:25:37,2024-09-03 17:25:37,0.070s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:25:37,2024-09-03 17:26:06,29.460s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:26:06,2024-09-03 17:28:49,2m - 42.876s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:26:07,2024-09-03 17:26:30,22.823s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:26:30,2024-09-03 17:26:30,0.066s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:26:30,2024-09-03 17:28:49,2m - 19.552s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:28:49,2024-09-03 17:29:44,55.272s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:28:49,2024-09-03 17:29:12,22.227s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:29:12,2024-09-03 17:29:12,0.065s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:29:12,2024-09-03 17:29:44,32.752s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:29:44,2024-09-03 17:30:22,37.687s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:29:45,2024-09-03 17:30:07,22.732s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:30:07,2024-09-03 17:30:07,0.054s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:30:07,2024-09-03 17:30:22,14.632s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:30:22,2024-09-03 17:31:00,37.601s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:30:22,2024-09-03 17:30:44,21.422s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:30:44,2024-09-03 17:30:44,0.051s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:30:44,2024-09-03 17:31:00,15.936s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Daily,Chrome 128.0.0.0,,,2024-09-03 17:31:00,2024-09-03 17:31:38,38.772s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:31:00,2024-09-03 17:31:22,22.047s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:31:22,2024-09-03 17:31:22,0.050s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""Daily"", """")",Chrome 128.0.0.0,,,2024-09-03 17:31:22,2024-09-03 17:31:38,16.255s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:31:38,2024-09-03 17:32:16,37.844s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:31:39,2024-09-03 17:32:03,24.426s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:32:03,2024-09-03 17:32:03,0.127s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:32:03,2024-09-03 17:32:16,12.952s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:32:16,2024-09-03 17:33:04,48.164s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:32:17,2024-09-03 17:32:39,22.301s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:32:39,2024-09-03 17:32:39,0.035s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:32:39,2024-09-03 17:33:04,25.519s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:33:04,2024-09-03 17:35:42,2m - 37.874s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:33:05,2024-09-03 17:33:26,21.369s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:33:26,2024-09-03 17:33:26,0.066s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:33:26,2024-09-03 17:35:42,2m - 16.172s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:35:42,2024-09-03 17:36:39,56.608s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:35:43,2024-09-03 17:36:05,22.589s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:36:05,2024-09-03 17:36:05,0.069s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:36:05,2024-09-03 17:36:39,33.660s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:36:39,2024-09-03 17:37:15,36.165s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:36:39,2024-09-03 17:37:01,22.160s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:37:01,2024-09-03 17:37:02,0.064s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:37:02,2024-09-03 17:37:15,13.589s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:37:15,2024-09-03 17:37:54,38.476s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:37:16,2024-09-03 17:37:38,22.035s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:37:38,2024-09-03 17:37:38,0.055s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:37:38,2024-09-03 17:37:54,16.033s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Weekly,Chrome 128.0.0.0,,,2024-09-03 17:37:54,2024-09-03 17:38:31,36.984s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:37:54,2024-09-03 17:38:15,21.455s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:38:15,2024-09-03 17:38:15,0.041s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""Weekly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:38:15,2024-09-03 17:38:31,15.181s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:38:31,2024-09-03 17:39:09,38.005s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:38:31,2024-09-03 17:38:54,23.287s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:38:54,2024-09-03 17:38:54,0.091s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:38:54,2024-09-03 17:39:09,14.315s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:39:09,2024-09-03 17:39:49,40.099s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:39:09,2024-09-03 17:39:32,22.638s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:39:32,2024-09-03 17:39:32,0.027s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:39:32,2024-09-03 17:39:49,17.073s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:39:49,2024-09-03 17:42:19,2m - 30.014s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:39:49,2024-09-03 17:40:12,22.784s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:40:12,2024-09-03 17:40:12,0.077s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:40:12,2024-09-03 17:42:19,2m - 6.869s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:42:19,2024-09-03 17:43:03,44.377s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:42:19,2024-09-03 17:42:41,21.781s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:42:41,2024-09-03 17:42:41,0.072s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:42:41,2024-09-03 17:43:03,22.333s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:43:03,2024-09-03 17:43:37,34.042s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:43:03,2024-09-03 17:43:24,21.098s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:43:24,2024-09-03 17:43:25,0.079s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:43:25,2024-09-03 17:43:37,12.666s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:43:37,2024-09-03 17:44:19,42.045s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:43:37,2024-09-03 17:43:59,21.945s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:43:59,2024-09-03 17:43:59,0.069s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:43:59,2024-09-03 17:44:19,19.795s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Monthly,Chrome 128.0.0.0,,,2024-09-03 17:44:19,2024-09-03 17:44:56,36.481s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:44:20,2024-09-03 17:44:41,21.600s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:44:41,2024-09-03 17:44:41,0.075s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""Monthly"", """")",Chrome 128.0.0.0,,,2024-09-03 17:44:41,2024-09-03 17:44:56,14.404s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:44:56,2024-09-03 17:46:14,1m - 18.256s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:44:56,2024-09-03 17:45:19,23.239s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:45:19,2024-09-03 17:45:19,0.041s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:45:19,2024-09-03 17:46:14,54.575s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:46:14,2024-09-03 17:46:52,37.846s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:46:14,2024-09-03 17:46:37,22.164s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:46:37,2024-09-03 17:46:37,0.089s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:46:37,2024-09-03 17:46:52,15.208s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:46:52,2024-09-03 17:49:21,2m - 29.222s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:46:52,2024-09-03 17:47:15,23.040s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:47:15,2024-09-03 17:47:15,0.017s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:47:15,2024-09-03 17:49:21,2m - 5.856s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:49:21,2024-09-03 17:51:59,2m - 38.420s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:49:21,2024-09-03 17:49:45,23.582s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:49:45,2024-09-03 17:49:45,0.020s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:49:45,2024-09-03 17:51:59,2m - 14.614s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:52:00,2024-09-03 17:54:15,2m - 15.467s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:52:00,2024-09-03 17:54:15,2m - 15.258s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:54:15,2024-09-03 17:55:26,1m - 10.692s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:54:15,2024-09-03 17:54:46,31.014s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:54:46,2024-09-03 17:54:46,0.060s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:54:46,2024-09-03 17:55:26,39.388s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells DailyBH,Chrome 128.0.0.0,,,2024-09-03 17:55:26,2024-09-03 17:56:18,52.296s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:55:26,2024-09-03 17:55:50,24.394s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:55:50,2024-09-03 17:55:50,0.060s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""DailyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:55:50,2024-09-03 17:56:18,27.621s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 17:56:18,2024-09-03 17:56:56,38.216s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:56:18,2024-09-03 17:56:41,22.829s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:56:41,2024-09-03 17:56:41,0.073s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:56:41,2024-09-03 17:56:56,15.021s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 17:56:56,2024-09-03 17:57:33,37.006s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:56:56,2024-09-03 17:57:20,23.553s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:57:20,2024-09-03 17:57:20,0.064s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:57:20,2024-09-03 17:57:33,13.138s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 17:57:33,2024-09-03 18:00:02,2m - 28.997s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 17:57:33,2024-09-03 17:57:56,22.899s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 17:57:56,2024-09-03 17:57:56,0.066s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 17:57:56,2024-09-03 18:00:02,2m - 5.793s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 18:00:02,2024-09-03 18:00:51,48.381s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:00:02,2024-09-03 18:00:26,23.244s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:00:26,2024-09-03 18:00:26,0.076s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:00:26,2024-09-03 18:00:51,24.840s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 18:00:51,2024-09-03 18:01:27,36.014s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:00:51,2024-09-03 18:01:14,23.384s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:01:14,2024-09-03 18:01:14,0.061s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:01:14,2024-09-03 18:01:27,12.281s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 18:01:27,2024-09-03 18:02:11,44.277s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:01:27,2024-09-03 18:01:50,22.782s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:01:50,2024-09-03 18:01:50,0.059s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:01:50,2024-09-03 18:02:11,21.221s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells WeeklyBH,Chrome 128.0.0.0,,,2024-09-03 18:02:11,2024-09-03 18:02:48,37.335s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:02:11,2024-09-03 18:02:36,24.432s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:02:36,2024-09-03 18:02:36,0.068s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""WeeklyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:02:36,2024-09-03 18:02:48,12.606s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:02:48,2024-09-03 18:03:24,35.961s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:02:49,2024-09-03 18:03:11,22.868s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:03:11,2024-09-03 18:03:11,0.062s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:03:11,2024-09-03 18:03:24,12.830s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:03:24,2024-09-03 18:06:07,2m - 42.675s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:03:25,2024-09-03 18:03:47,22.963s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:03:47,2024-09-03 18:03:48,0.064s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:03:48,2024-09-03 18:06:07,2m - 19.409s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:06:07,2024-09-03 18:08:22,2m - 15.352s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:06:07,2024-09-03 18:06:28,21.251s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:06:28,2024-09-03 18:06:28,0.067s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:06:28,2024-09-03 18:08:22,1m - 53.826s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:08:22,2024-09-03 18:09:17,54.955s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:08:23,2024-09-03 18:08:44,21.100s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:08:44,2024-09-03 18:08:44,0.050s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:08:44,2024-09-03 18:09:17,33.586s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:09:17,2024-09-03 18:09:59,41.872s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:09:18,2024-09-03 18:09:38,20.099s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:09:38,2024-09-03 18:09:38,0.049s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:09:38,2024-09-03 18:09:59,21.519s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:09:59,2024-09-03 18:10:53,53.510s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:09:59,2024-09-03 18:10:24,24.361s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:10:24,2024-09-03 18:10:24,0.054s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:10:24,2024-09-03 18:10:53,28.903s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells MonthlyBH,Chrome 128.0.0.0,,,2024-09-03 18:10:53,2024-09-03 18:11:28,35.327s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:10:53,2024-09-03 18:11:15,22.155s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:11:15,2024-09-03 18:11:15,0.048s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""Sleeping Cells"", ""MonthlyBH"", """")",Chrome 128.0.0.0,,,2024-09-03 18:11:15,2024-09-03 18:11:28,12.923s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/PLMN/PLMN CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:11:28,2024-09-03 18:12:05,36.931s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:11:28,2024-09-03 18:11:51,23.199s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:11:51,2024-09-03 18:11:52,0.060s,PASSED
+"SON.son(""huawei"", ""2G"", ""PLMN"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:11:52,2024-09-03 18:12:05,13.456s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Region/Region 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:12:05,2024-09-03 18:12:37,32.443s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:12:05,2024-09-03 18:12:28,22.680s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:12:28,2024-09-03 18:12:28,0.057s,PASSED
+"SON.son(""huawei"", ""2G"", ""Region"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:12:28,2024-09-03 18:12:37,9.514s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Site/Site 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:12:37,2024-09-03 18:13:25,48.034s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:12:38,2024-09-03 18:13:00,21.869s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:13:00,2024-09-03 18:13:00,0.052s,PASSED
+"SON.son(""huawei"", ""2G"", ""Site"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:13:00,2024-09-03 18:13:25,25.894s,FAILED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cell/Cell 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:13:26,2024-09-03 18:14:09,43.336s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:13:26,2024-09-03 18:13:49,23.689s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:13:49,2024-09-03 18:13:50,0.047s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cell"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:13:50,2024-09-03 18:14:09,19.338s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/BSC/BSC 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:14:09,2024-09-03 18:14:42,32.645s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:14:09,2024-09-03 18:14:33,23.478s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:14:33,2024-09-03 18:14:33,0.049s,PASSED
+"SON.son(""huawei"", ""2G"", ""BSC"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:14:33,2024-09-03 18:14:41,8.936s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:14:42,2024-09-03 18:15:18,36.249s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:14:42,2024-09-03 18:15:06,24.023s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:15:06,2024-09-03 18:15:06,0.048s,PASSED
+"SON.son(""huawei"", ""2G"", ""Cluster"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:15:06,2024-09-03 18:15:18,11.978s,PASSED
+,,,,,,,
+Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CO Sector,Chrome 128.0.0.0,,,2024-09-03 18:15:18,2024-09-03 18:15:51,33.309s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-03 18:15:18,2024-09-03 18:15:42,23.992s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-03 18:15:42,2024-09-03 18:15:42,0.054s,PASSED
+"SON.son(""huawei"", ""2G"", ""Governorate"", ""CO Sector"", """", """")",Chrome 128.0.0.0,,,2024-09-03 18:15:42,2024-09-03 18:15:51,9.089s,PASSED

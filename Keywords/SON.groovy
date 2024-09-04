@@ -217,7 +217,7 @@ class SON {
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX East Amman Site1 Arrow'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/East Amman Site1 Cell1 2G'))
+				WebUI.click(findTestObject('Object Repository/SON/ObjectType/Cell/East Amman Site1 Cell1'+" "+ Technology))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow'))
 
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow'))
@@ -643,6 +643,14 @@ class SON {
 					WebUI.click(findTestObject('Object Repository/SON/Resolution/MonthlyBH'))
 
 					String startDate=date('Last Month')
+					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
+					break
+				case 'Raw' :
+					WebUI.scrollToElement(findTestObject('Object Repository/SON/Exclude Options'), 0)
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Hourly'))
+					WebUI.click(findTestObject('Object Repository/SON/Resolution/Raw'))
+
+					String startDate=date('Yesterday')
 					driver.findElement(By.xpath('//button[contains(text(),"'+startDate+'")]')).click()
 					break
 

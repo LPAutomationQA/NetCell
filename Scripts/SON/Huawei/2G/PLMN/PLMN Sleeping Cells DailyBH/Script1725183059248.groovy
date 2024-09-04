@@ -22,6 +22,6 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
 
 //def date=CustomKeywords.'SON.date'("Last week")
-CustomKeywords.'SON.son'('huawei', '2G', 'PLMN', 'Sleeping Cells', 'DailyBH')
+CustomKeywords.'SON.son'('huawei', '2G', 'PLMN', 'Sleeping Cells', 'DailyBH','')
 
 

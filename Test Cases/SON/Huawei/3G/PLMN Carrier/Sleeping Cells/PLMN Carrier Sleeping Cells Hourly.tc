@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PLMN Carrier Sleeping Cells Hourly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bfd001e-f5cc-4aa1-a5b8-73d071ad1438</testCaseGuid>
+</TestCaseEntity>

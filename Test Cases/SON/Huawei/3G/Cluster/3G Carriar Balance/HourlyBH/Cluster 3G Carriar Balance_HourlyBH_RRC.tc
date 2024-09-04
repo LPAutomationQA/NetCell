@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cluster 3G Carriar Balance_HourlyBH_RRC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6adf11a8-ddbb-4401-9997-1c7fe60cdd0e</testCaseGuid>
+</TestCaseEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='301-King_Hussein_St_PD_Fiber_Manage']//div[@role='checkbox']</value>
+         <value>//span[contains(text(),'301-ULT_King_Hussein_St_PD_Fiber_Manage')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
