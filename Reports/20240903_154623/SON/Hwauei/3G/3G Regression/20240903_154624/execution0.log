@@ -5214,3 +5214,4 @@ Session ID: b0d22f76d7b355e0c880b187c6481211</property>
   <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
+</log>
