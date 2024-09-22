@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "18D8C3B7E6E087315988AABB4E16D877",
+  "keywordFileContentHash": "6B037D6ECBEA1D57FBC66EA2DCE4AA78",
   "keywordClasses": [
     {
       "name": "SON",
@@ -138,6 +138,19 @@
             },
             {
               "name": "ResolutionTemp",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "SonType",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

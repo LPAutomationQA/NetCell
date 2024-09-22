@@ -19,4 +19,4 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
-CustomKeywords.'SON.son'("huawei","4G", "PLMN", "4G 3GUtranNCellNeighbors")
+CustomKeywords.'SON.son'("huawei","4G", "PLMN", "4G 3GUtranNCellNeighbors",'','')

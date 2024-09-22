@@ -14,4 +14,14 @@
       <initValue>'https://netcellcert.com/#/login'</initValue>
       <name>NetCellURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CarrierType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CM</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
