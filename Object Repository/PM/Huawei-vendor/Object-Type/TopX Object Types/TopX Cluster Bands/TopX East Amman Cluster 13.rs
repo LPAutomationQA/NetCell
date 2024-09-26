@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/div/app-app-container/div/div/app-main/p-splitter/div/div[1]/app-left-side-menu/div/div[2]/app-target-tree/app-target-type/div[1]/div[3]/app-common-tree/p-tree/div/div/ul/p-treenode/li/ul/p-treenode[1]/li/ul/p-treenode[1]/li/ul/p-treenode[2]/li/div/span/span/div/span</value>
+         <value>//span[contains(text(),'Cluster 13')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

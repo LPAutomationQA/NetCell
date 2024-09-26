@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='401-UL_Maru_Irbid_PD_Fiber_TASC']//div[@role='checkbox']</value>
+         <value>//span[contains(text(),'424-Hakama_2_PC')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

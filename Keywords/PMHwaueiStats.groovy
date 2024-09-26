@@ -107,11 +107,11 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats North Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others Arrow'))
@@ -130,11 +130,11 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats North Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 					}
 					break
@@ -665,7 +665,7 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others Arrow'))
@@ -688,7 +688,7 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 					}
 					break
@@ -965,11 +965,11 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats North Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others Arrow'))
@@ -988,11 +988,11 @@ public class PMHwaueiStats {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats North Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan site1'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Stats Object type/Stats South Jordan site1'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 					}
 					break
@@ -1284,7 +1284,7 @@ public class PMHwaueiStats {
 
 		//ScrollDown
 		//WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
-		
+
 		WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/StarttimeLable'), 0)
 		//WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/LowXlabel"), 0)
 
@@ -1331,6 +1331,10 @@ public class PMHwaueiStats {
 		}
 		//Apply and Verify
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
+		if (ObjectType=='Sector'||ObjectType=='Governorate XDD' & Aggregation == false ) {
+			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/buttonOk'))
+		}
+
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Result'), 0)
 

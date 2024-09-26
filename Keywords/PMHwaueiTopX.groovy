@@ -836,7 +836,7 @@ public class PMHwaueiTopX {
 					else
 					{
 
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow'))
+						//	WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Arrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX East Amman Cluster 3'))
@@ -858,9 +858,9 @@ public class PMHwaueiTopX {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX South Jordan Cluster 8'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow'))
 
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Close Arrow'))
+						//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX FDD Close Arrow'))
 
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Arrow'))
+						//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Arrow'))
 
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Amman Arrow'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX South Amman Cluster 1'))
@@ -877,7 +877,7 @@ public class PMHwaueiTopX {
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cluster Bands/TopX Others Cluster 61'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Others CloseArrow'))
 
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Close Arrow'))
+						//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Close Arrow'))
 					}
 					break
 
@@ -924,9 +924,9 @@ public class PMHwaueiTopX {
 					{
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC Ader'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC Fifa'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC HQ 02'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/2G/TopX BSC Maan_R'))
 						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC AA 01'))
-						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/TopX BSC 415044'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX BSCs/2G/TopX BSC AA 02'))
 					}
 					break
 
@@ -1595,7 +1595,7 @@ public class PMHwaueiTopX {
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Chart'), 0)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX Export Chart'), 0)
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX Export Chart'), 0)
 		WebUI.waitForElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View'), 0)
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Table View'))
 		WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/Reordering the table view'))

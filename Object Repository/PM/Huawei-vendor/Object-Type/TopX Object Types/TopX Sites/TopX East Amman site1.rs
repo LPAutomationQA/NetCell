@@ -10,8 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='301-ULT_King_Hussein_St_PD_Fiber_Manage']//div[@role='checkbox']
-</value>
+         <value>//span[contains(text(),'4812-Nayfeh_Hawouze_PE_O')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='701-ULT_Alshamieh_Maan_PA_Fiber']//div[@role='checkbox']</value>
+         <value>//span[contains(text(),'5885-Potash_City_DeadSea_PF_Manage_O')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -26,8 +26,10 @@ WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
 
 WebUI.switchToWindowIndex(2)
 
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Cell'))
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX Object Type'))
+//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Cell'))
+WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX Cell'))
 
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/Arrow-East-Amman'))
 
@@ -42,8 +44,8 @@ WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Objec
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
 
 //Scroll Down
-WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
-
+//WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/StarttimeLable'), 0)
 
 //Date Selection
 WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))

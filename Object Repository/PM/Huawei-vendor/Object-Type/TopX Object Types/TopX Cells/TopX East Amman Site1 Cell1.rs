@@ -6,11 +6,11 @@
    <elementGuidId>04d3fddf-4552-406e-a321-5d11b63a7a1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'01-ULT_King_Hussein_St_PD_Fiber_Manage_A11')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'301-King_Hussein_St_PD_Fiber_Manage-A')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

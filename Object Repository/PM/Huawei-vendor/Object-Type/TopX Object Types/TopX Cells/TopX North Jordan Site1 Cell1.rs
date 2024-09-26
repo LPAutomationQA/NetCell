@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'401-UL_Maru_Irbid_PD_Fiber_TASC_A1')]</value>
+         <value>//span[contains(text(),'401-Maru_Irbid_PD-D')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

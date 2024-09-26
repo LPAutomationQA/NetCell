@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'701-ULT_Alshamieh_Maan_PA_Fiber_A1')]</value>
+         <value>//span[contains(text(),'701-Alshamieh_Maan_PA_Fiber-C')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
