@@ -1283,8 +1283,9 @@ public class PMHwaueiStats {
 
 
 		//ScrollDown
-		WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
-
+		//WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
+		
+		WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/StarttimeLable'), 0)
 		//WebUI.scrollToElement(findTestObject("Object Repository/PM/Huawei-vendor/LowXlabel"), 0)
 
 		String activeProfile = RunConfiguration.getExecutionProfile()

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FCA2230C86DD59519C2886CC422BC48E",
+  "keywordFileContentHash": "546653B36726409C3A39B083D753A3FD",
   "keywordClasses": [
     {
       "name": "PMHwaueiStats",
@@ -59,11 +59,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
