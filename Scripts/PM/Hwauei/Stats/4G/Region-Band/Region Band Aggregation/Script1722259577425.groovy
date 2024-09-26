@@ -18,12 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LoginNew'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.switchToWindowIndex(1)
 CustomKeywords.'PMHwaueiStats.Stats'("4G","Region Band", false, "Hourly")
 /*
 //Calling the Login method
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LoginNew'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Switch from the azure to netcell window
 WebUI.switchToWindowIndex(1)

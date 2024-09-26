@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 //Calling the Login method
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LoginNew'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Switch from the azure to netcell window
 WebUI.switchToWindowIndex(1)

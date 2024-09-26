@@ -465,16 +465,15 @@ public class CMParameter {
 					else
 					{
 						//Select the PLMN XDD Random
-						String PLMNxddNum = general.randomNumberForPLMNXDD
-						if (PLMNxddNum == '1')
-						{
-							WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD'))
-						}
-						else //PLMNxddNum == '2'
-						{
-							WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD'))
-						}
+						/*	String PLMNxddNum = general.randomNumberForPLMNXDD
+					 if (PLMNxddNum == '1')
+					 {*/
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD'))
+
+
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD'))
 					}
+
 					break
 
 				//-------------------------------------------------
@@ -647,11 +646,12 @@ public class CMParameter {
 			WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
 			//WebUI.verifyElementPresent(findTestObject('Object Repository/CM/Table header'), 0)
 
-			WebUI.delay(10)
+			//WebUI.delay(10)
 
+			WebUI.verifyElementNotPresent(findTestObject('Object Repository/SON/Error'), 100)
 
 			//WebUI.delay(10)
-			WebUI.closeBrowser()
+			//WebUI.closeBrowser()
 
 
 

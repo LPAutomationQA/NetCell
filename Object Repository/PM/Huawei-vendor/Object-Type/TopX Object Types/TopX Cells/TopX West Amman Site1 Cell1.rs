@@ -6,11 +6,11 @@
    <elementGuidId>a70abcb4-10db-45f1-9aee-04f8c05a0ab9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'201-UL_Jordan_Hospital_PF_DIBS_Manage_C1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/div[1]/app-app-container[1]/div[1]/div[1]/app-main[1]/p-splitter[1]/div[1]/div[1]/app-left-side-menu[1]/div[1]/div[2]/app-target-tree[1]/app-target-type[1]/div[1]/div[3]/app-common-tree[1]/p-tree[1]/div[1]/div[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[2]/li[1]/ul[1]/p-treenode[1]/li[1]/ul[1]/p-treenode[1]/li[1]/div[1]/span[1]/span[1]/div[1]/span[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -289,7 +289,7 @@ class SON {
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region Others'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region South Amman'))
 				WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Region Bands/TopX TDD Close Arrow'))
-				
+
 
 				break
 			//-------------------------------------------------------------
@@ -576,14 +576,14 @@ class SON {
 	@Keyword
 
 	def selectResolution(WebDriver driver,String ResolutionTemp,String SonType) {
-		/*def scroll
+		def scroll
 		if (SonType=='4G Balance') {
 			scroll='Object Repository/SON/Include'
 		}
-		else {*/
-		def scroll
+		else {
+
 			scroll='Object Repository/SON/Exclude Options'
-		
+		}
 
 		if (ResolutionTemp!="") {
 

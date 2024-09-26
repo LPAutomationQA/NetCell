@@ -12,87 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a583a6f2-fde2-43ef-a995-5c0d2a935e2e</testSuiteGuid>
    <testCaseLink>
-      <guid>a5117db7-464a-4088-97df-cb6f5d634564</guid>
+      <guid>c880563c-9533-4555-b552-0c253aa78c31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-PLMN</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ce39a46-7226-4318-8759-1fe485506996</guid>
+      <guid>2f371568-99b4-4479-b763-f04f8f3cc06f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Region</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9e987a4-d72e-463d-962b-c465874953a6</guid>
+      <guid>d0b1a09a-0214-4b1b-9930-908911631bce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Site</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>151ae499-1f6d-4457-b968-19a9bd7d6fa8</guid>
+      <guid>ee2e64da-036b-4ae7-a50e-67c602638e59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Cell</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2fe4cc1a-930e-41e0-b21a-8535534dbdb5</guid>
+      <guid>a0f6d692-8f31-4bf2-b744-e7c7950a8278</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Cluster</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-Region</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e04253-d673-49fd-b753-489dc6da8beb</guid>
+      <guid>93b1093a-0bea-4f84-997d-7d17ea5a158b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Cluster Band</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b41f56f1-f9a9-4763-88ee-00d4b88cda34</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Governorate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>02e57543-4233-4815-b2e0-dbcc58e0f665</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Governorate XDD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>008d4924-a7ee-450a-a727-d2089229a73d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-PLMN XDD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>57996757-79b4-49b2-8ff2-9c6be3c8d84d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Region Band</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d352377a-f5df-4e3a-9f2d-dc0627701986</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Region XDD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0e4a328c-4235-468b-afe6-800a0c400ef1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CM/Parameter/Parameter-Sector</testCaseId>
+      <testCaseId>Test Cases/CM/Parameter/Time-Last Week/Parameter-Site</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

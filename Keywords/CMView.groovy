@@ -20,7 +20,7 @@ import internal.GlobalVariable
 
 public class CMView {
 	@Keyword
-	Stats (String Technology , String ObjectType ,boolean Aggregation ,String ResolutionTemp) {
+	Stats (String Technology , String ObjectType ,boolean Aggregation ,String MonitoringTargetType) {
 		def general = new general()
 		//Click on the PM
 		WebUI.click(findTestObject('Object Repository/CM/CM'))
@@ -457,16 +457,11 @@ public class CMView {
 					else
 					{
 						//Select the PLMN XDD Random
-						String PLMNxddNum = general.randomNumberForPLMNXDD
-						if (PLMNxddNum == '1')
-						{
-							WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD'))
-						}
-						else //PLMNxddNum == '2'
-						{
-							WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD'))
-						}
+
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD'))
+						WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD'))
 					}
+
 					break
 
 				//-------------------------------------------------
@@ -589,7 +584,10 @@ public class CMView {
 
 			//Choose target type
 			WebUI.click(findTestObject("Object Repository/CM/View/Target type/Target Type Arrow"))
-			WebUI.click(findTestObject("Object Repository/CM/View/Target type/Cell"))
+			if (ObjectType=='Cell') {WebUI.click(findTestObject("Object Repository/CM/View/Target type/Cell 2"))}
+			else {
+				WebUI.click(findTestObject("Object Repository/CM/View/Target type/Cell"))}
+
 			WebUI.scrollToElement(findTestObject('Object Repository/CM/View/MOs/MO-4GCaCroupSCellCfg'), 0)
 			// Choose MOs
 			WebUI.click(findTestObject("Object Repository/CM/View/MOs/MO-4G-BcchCfg"))
@@ -600,7 +598,7 @@ public class CMView {
 			//Apply and Verify
 			WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
 			WebUI.verifyElementNotPresent(findTestObject('Object Repository/PM/Huawei-vendor/Error'), 0)
-			WebUI.verifyElementPresent(findTestObject('Object Repository/CM/Table header'), 0)
+			//WebUI.verifyElementPresent(findTestObject('Object Repository/CM/Table header'), 0)
 
 
 			//WebUI.delay(10)

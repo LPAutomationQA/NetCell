@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B2DAB21373830BCB91D77FFD77FC20CF",
+  "keywordFileContentHash": "E1A2EDB0EACCFC849B9B3C581D059E9D",
   "keywordClasses": [
     {
       "name": "CMView",
@@ -47,7 +47,7 @@
               }
             },
             {
-              "name": "ResolutionTemp",
+              "name": "MonitoringTargetType",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
