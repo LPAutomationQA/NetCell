@@ -1,0 +1,70 @@
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G Neighbors","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G Neighbors","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CoBCCH","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CoBCCH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Hourly","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Hourly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Daily","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Weekly","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Monthly","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells Monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells DailyBH","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells DailyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells WeeklyBH","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells WeeklyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells MonthlyBH","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate Sleeping Cells MonthlyBH","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/PLMN/PLMN CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/PLMN/PLMN CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Region/Region 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/Region/Region 2G CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Site/Site 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/Site/Site 2G CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cell/Cell 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/Cell/Cell 2G CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/BSC/BSC 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/BSC/BSC 2G CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/Cluster/Cluster 2G CO Sector","iterationVariableName":""}
+{"testCaseName":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CO Sector","testCaseId":"Test Cases/SON/Huawei/2G/Governorate/Governorate 2G CO Sector","iterationVariableName":""}

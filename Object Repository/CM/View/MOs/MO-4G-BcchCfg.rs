@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='MO_4G_BcchCfg']//div[@role='checkbox']</value>
+         <value>//div[contains(text(),'MO_2G_CELLGLDSS')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

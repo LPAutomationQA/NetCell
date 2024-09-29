@@ -236,34 +236,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a68fa85e-b503-449c-808a-f985a5334d2a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PM/Hwauei/TopX/3G TopX/XSector/TopX 3G Sector default</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e4274ca5-21cf-4a27-aab6-2ef317a80ba6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PM/Hwauei/TopX/3G TopX/XSector/TopX 3G Sector With LowX</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>70a3f07f-4d62-46a2-8e37-6416a0b89031</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PM/Hwauei/TopX/3G TopX/XSector/TopX 3G Sector Daily</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fa9b787f-e5a7-4038-ad22-81ca36b42497</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PM/Hwauei/TopX/3G TopX/XSector/TopX 3G Sector DailyBH</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8f668be7-1c96-4de5-8634-6c288fe7abe5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

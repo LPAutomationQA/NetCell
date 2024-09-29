@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label='MO_4G_CLZeroBufferzone']//div[@role='checkbox']</value>
+         <value>//li[@aria-label='MO_2G_GCELLAMRQUL']//div[@role='checkbox']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4G Parameter,Chrome 128.0.0.0,,,2024-09-29 13:35:40,2024-09-29 13:40:56,5m - 15.511s,FAILED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell,Chrome 128.0.0.0,,,2024-09-29 13:35:40,2024-09-29 13:36:03,22.690s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:35:41,2024-09-29 13:35:50,9.119s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:35:50,2024-09-29 13:35:50,0.026s,PASSED
+"CMParameter.Stats(""4G"", ""Cell"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:35:50,2024-09-29 13:36:02,12.287s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:36:02,2024-09-29 13:36:03,0.989s,PASSED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD,Chrome 128.0.0.0,,,2024-09-29 13:36:03,2024-09-29 13:37:44,1m - 40.636s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:36:03,2024-09-29 13:36:11,7.371s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:36:11,2024-09-29 13:36:11,0.020s,PASSED
+"CMParameter.Stats(""4G"", ""PLMN XDD"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:36:11,2024-09-29 13:37:43,1m - 32.237s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:37:43,2024-09-29 13:37:44,0.745s,PASSED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN,Chrome 128.0.0.0,,,2024-09-29 13:37:44,2024-09-29 13:38:15,30.844s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:37:44,2024-09-29 13:37:52,7.747s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:37:52,2024-09-29 13:37:52,0.029s,PASSED
+"CMParameter.Stats(""4G"", ""PLMN"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:37:52,2024-09-29 13:38:14,22.173s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:38:14,2024-09-29 13:38:15,0.704s,PASSED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD,Chrome 128.0.0.0,,,2024-09-29 13:38:15,2024-09-29 13:39:21,1m - 6.714s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:38:15,2024-09-29 13:38:23,7.985s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:38:23,2024-09-29 13:38:23,0.023s,PASSED
+"CMParameter.Stats(""4G"", ""Region XDD"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:38:23,2024-09-29 13:39:21,57.842s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:39:21,2024-09-29 13:39:21,0.642s,PASSED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-Region,Chrome 128.0.0.0,,,2024-09-29 13:39:21,2024-09-29 13:39:50,28.750s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:39:22,2024-09-29 13:39:28,6.575s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:39:28,2024-09-29 13:39:28,0.031s,PASSED
+"CMParameter.Stats(""4G"", ""Region"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:39:28,2024-09-29 13:39:49,21.264s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:39:49,2024-09-29 13:39:50,0.643s,PASSED
+,,,,,,,
+Test Cases/CM/Parameter/Time-Last Week/Parameter-Site,Chrome 128.0.0.0,,,2024-09-29 13:39:50,2024-09-29 13:40:56,1m - 5.586s,FAILED
+"callTestCase(findTestCase(""LoginNew""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,2024-09-29 13:39:50,2024-09-29 13:39:58,8.107s,PASSED
+switchToWindowIndex(1),Chrome 128.0.0.0,,,2024-09-29 13:39:58,2024-09-29 13:39:58,0.016s,PASSED
+"CMParameter.Stats(""4G"", ""Site"", false, ""Last Week"")",Chrome 128.0.0.0,,,2024-09-29 13:39:58,2024-09-29 13:40:55,56.501s,FAILED
+Start tear down : tearDownTestCase,Chrome 128.0.0.0,,,2024-09-29 13:40:55,2024-09-29 13:40:56,0.704s,PASSED
