@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'4812-Nayfeh_Hawouze_PE_O')]</value>
+         <value>//span[contains(text(),'1730-UL_Hussein_Kindi_Hospital_PF_CDIBS_O')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

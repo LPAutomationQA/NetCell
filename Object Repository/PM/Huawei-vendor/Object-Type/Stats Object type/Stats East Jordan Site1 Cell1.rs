@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TopX East Jordan Site1 Cell1</name>
+   <name>Stats East Jordan Site1 Cell1</name>
    <tag></tag>
-   <elementGuidId>d0300117-51cc-4cc6-9e13-c075b880b449</elementGuidId>
+   <elementGuidId>4df0f545-b535-43f7-8703-3705a9855ec4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'1001-BSC_Dwaik_PA_Fiber_TASC_O-A')]
+         <value>//span[contains(text(),'1001-ULT_BSC_Dwaik_PA_Fiber_TASC_O_A1')]
 </value>
       </entry>
    </selectorCollection>

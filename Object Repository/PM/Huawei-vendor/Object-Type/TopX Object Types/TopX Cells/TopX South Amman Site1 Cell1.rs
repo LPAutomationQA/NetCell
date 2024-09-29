@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'101-UL_Sweifieh_Olympia_PE_GPON_TASC_A1')]</value>
+         <value>//span[contains(text(),'101-Sweifieh_Olympia_PE_GPON_TASC-A')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

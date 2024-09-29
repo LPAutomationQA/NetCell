@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -19,42 +20,67 @@ import org.openqa.selenium.Keys as Keys
 
 
 WebUI.callTestCase(findTestCase('LoginNew'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.switchToWindowIndex(1)
-
-WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
-
-WebUI.switchToWindowIndex(2)
-
-//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX Object Type'))
-//WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Cell'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX Cell'))
-
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/Arrow-East-Amman'))
-
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option1'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option2'))
-WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'), 0)
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option3'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman-Options/East-Amman-Option4'))
-
-
-
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
-
-//Scroll Down
-//WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/Include-last-hour'), 0)
-WebUI.scrollToElement(findTestObject('Object Repository/PM/Huawei-vendor/StarttimeLable'), 0)
-
-//Date Selection
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/Fep-Selection'))
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/StartDate/1-Fep'))
-
-WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Apply-Button'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/PM/Huawei-vendor/Export-Charts'), 0)
-
-
-WebUI.closeBrowser()
+CustomKeywords.'PMHwaueiStats.Stats'("4G","Cell", true, "Hourly")
+/*
+ * WebUI.callTestCase(findTestCase('LoginNew'), [:],
+ * FailureHandling.STOP_ON_FAILURE)
+ * 
+ * WebUI.switchToWindowIndex(1)
+ * 
+ * WebUI.click(findTestObject('Object Repository/PM/PM-Button'))
+ * 
+ * WebUI.switchToWindowIndex(2)
+ * 
+ * //WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Arrow'))
+ * WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/TopX/TopX
+ * Object Type')) //WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Huawei-4G/Cell'))
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX
+ * Cell'))
+ * 
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman
+ * -Options/Arrow-East-Amman'))
+ * 
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman
+ * -Options/East-Amman-Option1')) WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman
+ * -Options/East-Amman-Option2')) WebUI.scrollToElement(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Aggregation-CheckBox'), 0)
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman
+ * -Options/East-Amman-Option3')) WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Object-Type/Object-Type-Selection/Site/East-Amman
+ * -Options/East-Amman-Option4'))
+ * 
+ * 
+ * 
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Aggregation-CheckBox'))
+ * 
+ * //Scroll Down //WebUI.scrollToElement(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Include-last-hour'), 0)
+ * WebUI.scrollToElement(findTestObject('Object
+ * Repository/PM/Huawei-vendor/StarttimeLable'), 0)
+ * 
+ * //Date Selection WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/StartDate/StartDate-Button'))
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/StartDate/Monthly-Selection'))
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/StartDate/Fep-Selection'))
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/StartDate/1-Fep'))
+ * 
+ * WebUI.click(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Apply-Button'))
+ * WebUI.verifyElementPresent(findTestObject('Object
+ * Repository/PM/Huawei-vendor/Export-Charts'), 0)
+ * 
+ * 
+ * WebUI.closeBrowser()
+ */
