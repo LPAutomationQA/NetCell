@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('LoginNew'), [:], FailureHandling.STOP_ON_FAILUR
 
 WebUI.switchToWindowIndex(1)
 
-CustomKeywords.'SON.son'('Nokia', '4G', 'Region XDD', '4G PCIConflict')
+CustomKeywords.'SON.son'('Nokia', '4G', 'Region XDD', '4G PCIConflict','','')
 
 
 

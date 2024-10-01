@@ -156,7 +156,7 @@ class SON {
 
 				if (Technology=='2G') {
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow'))
-					WebUI.click(findTestObject('Object Repository/SON/ObjectType/East Amman site1'))
+					WebUI.click(findTestObject('Object Repository/SON/ObjectType/East Amman site1 2G'))
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow'))
 
 					WebUI.click(findTestObject('Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow'))

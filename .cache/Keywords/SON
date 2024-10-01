@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "688DF50293F4FAC1074C76D9018125EE",
+  "keywordFileContentHash": "59AC8AFEFEE15AD3077AB0CFE433AD30",
   "keywordClasses": [
     {
       "name": "SON",
@@ -85,8 +85,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "selectObjectType",
@@ -117,8 +116,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "selectResolution",
@@ -162,8 +160,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "date",
@@ -181,11 +178,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
