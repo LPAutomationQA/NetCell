@@ -27214,3 +27214,4 @@ Session ID: c9fe07fe15976fffaa05135de4f24b85</property>
   <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
+</log>

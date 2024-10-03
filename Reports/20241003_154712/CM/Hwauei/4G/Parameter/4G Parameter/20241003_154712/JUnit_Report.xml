@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="4G Parameter" time="303.001" tests="6" failures="0" errors="0">
+   <testsuite name="4G Parameter" tests="6" failures="0" errors="0" time="303.001" skipped="0" timestamp="2024-10-03 15:47:15" hostname="FatimaIbeid - LP-FatimaIbeid" id="Test Suites/CM/Hwauei/4G/Parameter/4G Parameter">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20241003_154712\\CM\\Hwauei\\4G\\Parameter\\4G Parameter\\20241003_154712"/>
+         <property name="logFiles" value="C:\\Users\\FatimaIbeid\\git\\NetCell\\Reports\\20241003_154712\\CM\\Hwauei\\4G\\Parameter\\4G Parameter\\20241003_154712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FatimaIbeid - LP-FatimaIbeid"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.187"/>
+         <property name="sessionId" value="53f5cf770746185a0e103bcaea1daaa2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell" time="50.875" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:47:15 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell: Test Cases/CM/Parameter/Time-Last Week/Parameter-Cell
+
+2024-10-03 15:47:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:47:16 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:47:16 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:47:16 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:47:19 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:47:20 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:47:20 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:47:31 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:47:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:47:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:47:33 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:47:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:47:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:47:35 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:47:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:47:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:47:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:47:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:47:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:47:37 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:47:37 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:47:37 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "Cell", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:47:38 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:47:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX Cell' is clicked on
+
+2024-10-03 15:47:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:47:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-10-03 15:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow' is clicked on
+
+2024-10-03 15:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX East Amman Site1 Arrow' is clicked on
+
+2024-10-03 15:47:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter East Amman site1 cell1' is clicked on
+
+2024-10-03 15:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow' is clicked on
+
+2024-10-03 15:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow' is clicked on
+
+2024-10-03 15:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX West Amman Site1 Arrow' is clicked on
+
+2024-10-03 15:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter West Amman site1 cell1' is clicked on
+
+2024-10-03 15:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow' is clicked on
+
+2024-10-03 15:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow' is clicked on
+
+2024-10-03 15:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX North Jordan Site1 Arrow' is clicked on
+
+2024-10-03 15:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter North Jordan Site1 Cell1' is clicked on
+
+2024-10-03 15:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow' is clicked on
+
+2024-10-03 15:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow' is clicked on
+
+2024-10-03 15:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Cells/TopX South Jordan Site1 Arrow' is clicked on
+
+2024-10-03 15:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter South Jordan Site1 Cell1' is clicked on
+
+2024-10-03 15:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow' is clicked on
+
+2024-10-03 15:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:48:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:48:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:48:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:48:04 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:48:04 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:48:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:48:06 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:48:06 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD" time="74.91" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:48:06 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD: Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN XDD
+
+2024-10-03 15:48:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:48:07 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:48:07 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:48:07 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:48:08 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:48:09 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:48:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:48:21 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:48:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:48:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:48:22 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:48:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:48:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:48:24 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:48:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:48:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:48:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:48:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:48:26 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:48:26 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "PLMN XDD", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:48:26 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:48:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs XDD/TopX PLMN XDD' is clicked on
+
+2024-10-03 15:48:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:48:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:48:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-10-03 15:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD' is clicked on
+
+2024-10-03 15:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD' is clicked on
+
+2024-10-03 15:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:48:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:49:20 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:49:20 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:49:20 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:49:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:49:21 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:49:21 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN" time="57.244" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:49:21 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN: Test Cases/CM/Parameter/Time-Last Week/Parameter-PLMN
+
+2024-10-03 15:49:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:49:21 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:49:21 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:49:21 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:49:23 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:49:23 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:49:23 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:49:35 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:49:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:49:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:49:36 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:49:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:49:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:49:38 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:49:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:49:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:49:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:49:40 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:49:40 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "PLMN", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:49:40 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:49:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs/TopX PLMN' is clicked on
+
+2024-10-03 15:49:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX PLMNs/TopX PLMN checkbox' is clicked on
+
+2024-10-03 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:49:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:50:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:50:17 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:50:17 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:50:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:50:18 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:50:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD" time="32.521" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:50:18 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD: Test Cases/CM/Parameter/Time-Last Week/Parameter-Region XDD
+
+2024-10-03 15:50:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:50:19 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:50:19 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:50:19 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:50:20 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:50:21 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:50:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:50:32 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:50:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:50:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:50:34 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:50:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:50:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:50:35 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:50:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:50:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:50:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:50:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:50:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:50:37 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:50:37 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:50:37 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "Region XDD", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:50:38 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX Region XDD' is clicked on
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow' is clicked on
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD' is clicked on
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow' is clicked on
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow' is clicked on
+
+2024-10-03 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan Arrow' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX FDD' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Jordan CloseArrow' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions XDD/TopX TDD' is clicked on
+
+2024-10-03 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow' is clicked on
+
+2024-10-03 15:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:50:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:50:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:50:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:50:50 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:50:50 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:50:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:50:51 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:50:51 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-Region" time="48.971" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-Region" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:50:51 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-Region: Test Cases/CM/Parameter/Time-Last Week/Parameter-Region
+
+2024-10-03 15:50:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:50:51 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:50:51 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:50:51 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:50:52 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:50:53 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:50:53 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:51:05 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:51:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:51:06 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:51:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:51:07 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:51:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:51:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:51:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:51:10 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:51:10 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "Region", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:51:10 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:51:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region' is clicked on
+
+2024-10-03 15:51:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:51:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-10-03 15:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region East Amman' is clicked on
+
+2024-10-03 15:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region West Amman' is clicked on
+
+2024-10-03 15:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region South Jordan' is clicked on
+
+2024-10-03 15:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Regions/TopX Region North Jordan' is clicked on
+
+2024-10-03 15:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:51:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:51:39 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:51:39 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:51:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:51:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:51:40 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:51:40 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CM/Parameter/Time-Last Week/Parameter-Site" time="38.093" classname="Test Cases/CM/Parameter/Time-Last Week/Parameter-Site" status="PASSED">
+         <system-out><![CDATA[2024-10-03 15:51:40 - [TEST_CASE][PASSED] - Test Cases/CM/Parameter/Time-Last Week/Parameter-Site: Test Cases/CM/Parameter/Time-Last Week/Parameter-Site
+
+2024-10-03 15:51:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginNew"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:51:40 - [TEST_CASE][PASSED] - Test Cases/LoginNew: Test Cases/LoginNew
+
+2024-10-03 15:51:40 - [TEST_STEP][PASSED] - driver = general.start(SwagerURL, NetCellURL): general.start is PASSED
+
+2024-10-03 15:51:40 - [MESSAGE][INFO] - >>> chromeDriverPath=C:\Users\FatimaIbeid\.katalon\packages\Katalon_Studio_Windows_64-8.6.9\Katalon_Studio_Windows_64-8.6.9\configuration\resources\drivers\chromedriver_win32\chromedriver.exe
+
+2024-10-03 15:51:42 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-03 15:51:42 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2024-10-03 15:51:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:51:54 - [MESSAGE][PASSED] - general.start is PASSED
+
+2024-10-03 15:51:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterEmail2"), "homam@zztjg.onmicrosoft.com"): Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:51:55 - [MESSAGE][PASSED] - Keys 'homam@zztjg.onmicrosoft.com' sent to object: 'Object Repository/Login/EnterEmail2'
+
+2024-10-03 15:51:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/EnterPassword2"), "P@ssw0rd"): Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:51:56 - [MESSAGE][PASSED] - Keys 'P@ssw0rd' sent to object: 'Object Repository/Login/EnterPassword2'
+
+2024-10-03 15:51:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/LoginButton2")): Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginButton2' is clicked on
+
+2024-10-03 15:51:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-10-03 15:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:51:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login/welcome To NetCell"), 0): Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:51:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:51:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/welcome To NetCell' is present
+
+2024-10-03 15:51:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginNew' successfully
+
+2024-10-03 15:51:59 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2024-10-03 15:51:59 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2024-10-03 15:51:59 - [TEST_STEP][PASSED] - CMParameter.Stats("4G", "Site", false, "Last Week"): CMParameter.Stats is PASSED
+
+2024-10-03 15:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/CM' is clicked on
+
+2024-10-03 15:52:00 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2024-10-03 15:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Parameter/Parameter' is clicked on
+
+2024-10-03 15:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/TopX/TopX Object Type' is clicked on
+
+2024-10-03 15:52:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX Site' is clicked on
+
+2024-10-03 15:52:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-10-03 15:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:52:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PM/Huawei-vendor/Object Border' successfully
+
+2024-10-03 15:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman Arrow' is clicked on
+
+2024-10-03 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter East Amman site1' is clicked on
+
+2024-10-03 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX East Amman CloseArrow' is clicked on
+
+2024-10-03 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman Arrow' is clicked on
+
+2024-10-03 15:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman site1' is clicked on
+
+2024-10-03 15:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX West Amman CloseArrow' is clicked on
+
+2024-10-03 15:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan Arrow' is clicked on
+
+2024-10-03 15:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter North Jordan site1' is clicked on
+
+2024-10-03 15:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX North Jordan CloseArrow' is clicked on
+
+2024-10-03 15:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan Arrow' is clicked on
+
+2024-10-03 15:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CM/Object type/CMParameter South Jordan site1' is clicked on
+
+2024-10-03 15:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Object-Type/TopX Object Types/TopX Sites/TopX South Jordan CloseArrow' is clicked on
+
+2024-10-03 15:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PM/Huawei-vendor/Apply-Button' is clicked on
+
+2024-10-03 15:52:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2024-10-03 15:52:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PM/Huawei-vendor/Error' located by 'By.xpath: //div[@class='toast-summary title-medium-m']' is not present after '120' second(s)
+
+2024-10-03 15:52:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/SON/Error' located by 'By.xpath: //div[@class='home-logo']' is not present after '100' second(s)
+
+2024-10-03 15:52:17 - [MESSAGE][PASSED] - CMParameter.Stats is PASSED
+
+2024-10-03 15:52:17 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-10-03 15:52:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-03 15:52:18 - [MESSAGE][PASSED] - Browser is closed
+
+2024-10-03 15:52:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-10-03 15:47:15 - [TEST_SUITE][PASSED] - 4G Parameter: Test Cases/CM/Parameter/Time-Last Week/Parameter-Site]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
